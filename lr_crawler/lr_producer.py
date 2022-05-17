@@ -1,5 +1,4 @@
 import logging
-import random
 
 from confluent_kafka import SerializingProducer
 from confluent_kafka.schema_registry import SchemaRegistryClient

@@ -3,7 +3,7 @@ import logging
 import requests
 
 from lr_producer import LrProducer
-from build.gen.bakdata.lobbyist.v1.lobbyist_pb2 import Lobbyist, Related_Person
+from build.gen.bakdata.lobbyist.v1.lobbyist_pb2 import Lobbyist
 
 log = logging.getLogger(__name__)
 
@@ -25,7 +25,7 @@ class LrExtractor:
             lobbyist.client_name = self.organization_name
             lobbyist.fields_of_interests.extend(LrExtractor.extract_lobbies_from_lobbyist(interesting_lobbyist))
             for person in LrExtractor.extract_related_persons_from_lobbyist(interesting_lobbyist):
-                related_person = Related_Person()
+                related_person = lobbyist.related_persons.add()
                 related_person.first_name = person["first_name"]
                 related_person.last_name = person["last_name"]
                 lobbyist.related_persons.extend([related_person])
