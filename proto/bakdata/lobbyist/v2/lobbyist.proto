@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package bakdata.lobbyist.v2;
+
+message Lobbyist {
+  string lobbyist_name = 1;
+  repeated string organization_client_names = 2;
+  repeated string person_client_names = 3;
+  repeated string fields_of_interests = 4;
+
+  message Related_Person {
+  string first_name = 1;
+  string last_name = 2;
+}
+
+  repeated Related_Person related_persons = 5;
+}
