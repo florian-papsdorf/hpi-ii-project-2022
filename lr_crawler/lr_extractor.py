@@ -3,7 +3,7 @@ import logging
 import requests
 
 from lr_producer import LrProducer
-from build.gen.bakdata.lobbyist.v1.lobbyist_pb2 import Lobbyist
+from build.gen.bakdata.lobbyist.v2.lobbyist_pb2 import Lobbyist
 
 log = logging.getLogger(__name__)
 
@@ -17,14 +17,13 @@ class LrExtractor:
         for interesting_lobbyist in self.extract_lobbyists_from_response(detailed_data):
             lobbyist = Lobbyist()
             lobbyist.lobbyist_name = LrExtractor.extract_lobbyist_name_from_lobbyist(interesting_lobbyist)
-            # TODO: extract client names
-            lobbyist.client_name = ""
+            lobbyist.organization_client_names.extend(LrExtractor.extract_organization_client_names_from_lobbyist(interesting_lobbyist))
+            lobbyist.person_client_names.extend(LrExtractor.extract_person_client_names_from_lobbyist(interesting_lobbyist))
             lobbyist.fields_of_interests.extend(LrExtractor.extract_lobbies_from_lobbyist(interesting_lobbyist))
             for person in LrExtractor.extract_related_persons_from_lobbyist(interesting_lobbyist):
                 related_person = lobbyist.related_persons.add()
                 related_person.first_name = person["first_name"]
                 related_person.last_name = person["last_name"]
-                lobbyist.related_persons.extend([related_person])
             self.producer.produce_to_topic(lobbyist)
 
     @staticmethod
@@ -49,8 +48,13 @@ class LrExtractor:
         return lobbyist["lobbyistIdentity"]["name"]
 
     @staticmethod
-    def extract_client_names_from_lobbyist(lobbyist):
-        return list(map(lambda client_organization: client_organization["name"], lobbyist["clientOrganizations"]))
+    def extract_organization_client_names_from_lobbyist(lobbyist):
+        return list(
+            map(lambda client_organization: client_organization["name"], lobbyist["clientOrganizations"]))
+
+    @staticmethod
+    def extract_person_client_names_from_lobbyist(lobbyist):
+        return list(map(LrExtractor.extract_name_information_from_person, lobbyist["clientPersons"]))
 
     @staticmethod
     def extract_name_information_from_person(person):
