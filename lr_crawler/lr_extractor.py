@@ -9,20 +9,20 @@ log = logging.getLogger(__name__)
 
 
 class LrExtractor:
-    def __init__(self, organization_name):
-        self.organization_name = organization_name
+    def __init__(self):
         self.producer = LrProducer()
 
     def extract(self):
-        log.info(f"Sending request for: {self.organization_name}")
-        detailed_data = self.request_detailed_data()
-        for interesting_lobbyist in self.filter_interesting_lobbyists(detailed_data):
+        detailed_data = LrExtractor.request_detailed_data()
+        for interesting_lobbyist in self.extract_lobbyists_from_response(detailed_data):
             lobbyist = Lobbyist()
+            # TODO: handle self-employed lobbyists
             try:
                 lobbyist.lobbyist_name = LrExtractor.extract_lobbyist_name_from_lobbyist(interesting_lobbyist)
             except KeyError:
                 continue
-            lobbyist.client_name = self.organization_name
+            # TODO: extract client names
+            lobbyist.client_name = ""
             lobbyist.fields_of_interests.extend(LrExtractor.extract_lobbies_from_lobbyist(interesting_lobbyist))
             for person in LrExtractor.extract_related_persons_from_lobbyist(interesting_lobbyist):
                 related_person = lobbyist.related_persons.add()
@@ -32,9 +32,10 @@ class LrExtractor:
             log.debug(lobbyist)
             self.producer.produce_to_topic(lobbyist)
 
-    def request_detailed_data(self) -> str:
+    @staticmethod
+    def request_detailed_data() -> str:
         url = \
-            f"https://www.lobbyregister.bundestag.de/sucheDetailJson?q={self.organization_name}&sort=REGISTRATION_DESC"
+            f"https://www.lobbyregister.bundestag.de/sucheDetailJson?sort=REGISTRATION_DESC"
         return requests.get(url=url).json()
 
     @staticmethod
@@ -43,7 +44,7 @@ class LrExtractor:
 
     @staticmethod
     def extract_lobbies_from_lobbyist(lobbyist):
-        return list(map(lambda field_of_interest: field_of_interest["de"], lobbyist["fieldsOfInterest"]))
+        return list(map(lambda field_of_interest: field_of_interest["code"], lobbyist["fieldsOfInterest"]))
 
     @staticmethod
     def extract_lobbyist_name_from_lobbyist(lobbyist):
@@ -63,11 +64,3 @@ class LrExtractor:
         return list(map(LrExtractor.extract_name_information_from_person,
                         lobbyist["lobbyistIdentity"]["legalRepresentatives"])) + list(map(
             LrExtractor.extract_name_information_from_person, lobbyist["lobbyistIdentity"]["namedEmployees"]))
-
-    def filter_interesting_lobbyists(self, detailed_data_json_response):
-        interesting_lobbyists = list()
-        for lobbyist in LrExtractor.extract_lobbyists_from_response(detailed_data_json_response):
-            client_names = LrExtractor.extract_client_names_from_lobbyist(lobbyist)
-            if self.organization_name in client_names:
-                interesting_lobbyists.append(lobbyist)
-        return interesting_lobbyists

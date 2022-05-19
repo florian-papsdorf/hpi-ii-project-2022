@@ -8,5 +8,5 @@ logging.basicConfig(
 )
 
 if __name__ == "__main__":
-    sample_extractor = LrExtractor("SAP SE")
+    sample_extractor = LrExtractor()
     sample_extractor.extract()
