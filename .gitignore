@@ -1,4 +1,4 @@
 venv/
-build/gen/bakdata/*/v1/*_pb2.py
+build/gen/bakdata/*/*/*_pb2.py
 .idea
 __pycache__/
