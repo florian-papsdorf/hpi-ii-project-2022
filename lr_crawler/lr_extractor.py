@@ -60,10 +60,7 @@ class LrExtractor:
     @staticmethod
     def extract_related_persons_from_lobbyist(lobbyist):
         if lobbyist["lobbyistIdentity"]["identity"] == "NATURAL":
-            return [{
-                "first_name": lobbyist["lobbyistIdentity"]["commonFirstName"],
-                "last_name": lobbyist["lobbyistIdentity"]["lastName"]
-            }]
+            return [LrExtractor.extract_name_information_from_person(lobbyist["lobbyistIdentity"])]
         return list(map(LrExtractor.extract_name_information_from_person,
                         lobbyist["lobbyistIdentity"]["legalRepresentatives"])) + list(map(
             LrExtractor.extract_name_information_from_person, lobbyist["lobbyistIdentity"]["namedEmployees"]))
