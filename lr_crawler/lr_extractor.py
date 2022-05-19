@@ -16,11 +16,7 @@ class LrExtractor:
         detailed_data = LrExtractor.request_detailed_data()
         for interesting_lobbyist in self.extract_lobbyists_from_response(detailed_data):
             lobbyist = Lobbyist()
-            # TODO: handle self-employed lobbyists
-            try:
-                lobbyist.lobbyist_name = LrExtractor.extract_lobbyist_name_from_lobbyist(interesting_lobbyist)
-            except KeyError:
-                continue
+            lobbyist.lobbyist_name = LrExtractor.extract_lobbyist_name_from_lobbyist(interesting_lobbyist)
             # TODO: extract client names
             lobbyist.client_name = ""
             lobbyist.fields_of_interests.extend(LrExtractor.extract_lobbies_from_lobbyist(interesting_lobbyist))
@@ -29,7 +25,6 @@ class LrExtractor:
                 related_person.first_name = person["first_name"]
                 related_person.last_name = person["last_name"]
                 lobbyist.related_persons.extend([related_person])
-            log.debug(lobbyist)
             self.producer.produce_to_topic(lobbyist)
 
     @staticmethod
@@ -48,6 +43,9 @@ class LrExtractor:
 
     @staticmethod
     def extract_lobbyist_name_from_lobbyist(lobbyist):
+        if lobbyist["lobbyistIdentity"]["identity"] == "NATURAL":
+            return "%s %s".format(lobbyist["lobbyistIdentity"]["commonFirstName"],
+                                  lobbyist["lobbyistIdentity"]["lastName"])
         return lobbyist["lobbyistIdentity"]["name"]
 
     @staticmethod
@@ -61,6 +59,11 @@ class LrExtractor:
 
     @staticmethod
     def extract_related_persons_from_lobbyist(lobbyist):
+        if lobbyist["lobbyistIdentity"]["identity"] == "NATURAL":
+            return [{
+                "first_name": lobbyist["lobbyistIdentity"]["commonFirstName"],
+                "last_name": lobbyist["lobbyistIdentity"]["lastName"]
+            }]
         return list(map(LrExtractor.extract_name_information_from_person,
                         lobbyist["lobbyistIdentity"]["legalRepresentatives"])) + list(map(
             LrExtractor.extract_name_information_from_person, lobbyist["lobbyistIdentity"]["namedEmployees"]))
