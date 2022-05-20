@@ -73,7 +73,8 @@ class LrExtractor:
 
     @staticmethod
     def extract_donator_names_from_lobbyist(lobbyist):
-        return list(map(lambda donator: donator["name"], lobbyist["donators"]))
+        # one donator could be enumerated multiple times due to different contribution fields
+        return list(set(list(map(lambda donator: donator["name"], lobbyist["donators"]))))
 
     @staticmethod
     def extract_related_persons_from_lobbyist(lobbyist):

@@ -1,5 +1,4 @@
 import logging
-import time
 
 from confluent_kafka import SerializingProducer
 from confluent_kafka.schema_registry import SchemaRegistryClient
@@ -17,10 +16,6 @@ class LrProducer:
     def __init__(self):
         schema_registry_conf = {"url": SCHEMA_REGISTRY_URL}
         schema_registry_client = SchemaRegistryClient(schema_registry_conf)
-
-        for subject in schema_registry_client.get_subjects():
-            schema_registry_client.delete_subject(subject)
-        time.sleep(5)
 
         protobuf_serializer = ProtobufSerializer(
             lobbyist_pb2.Lobbyist, schema_registry_client, {"use.deprecated.format": True}
