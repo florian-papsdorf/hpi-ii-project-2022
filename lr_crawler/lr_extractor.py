@@ -16,14 +16,20 @@ class LrExtractor:
         detailed_data = LrExtractor.request_detailed_data()
         for interesting_lobbyist in self.extract_lobbyists_from_response(detailed_data):
             lobbyist = Lobbyist()
+            lobbyist.lobbyist_id = LrExtractor.extract_lobbyist_id_from_lobbyist(interesting_lobbyist)
             lobbyist.lobbyist_name = LrExtractor.extract_lobbyist_name_from_lobbyist(interesting_lobbyist)
-            lobbyist.organization_client_names.extend(LrExtractor.extract_organization_client_names_from_lobbyist(interesting_lobbyist))
-            lobbyist.person_client_names.extend(LrExtractor.extract_person_client_names_from_lobbyist(interesting_lobbyist))
+            lobbyist.organization_client_names.extend(
+                LrExtractor.extract_organization_client_names_from_lobbyist(interesting_lobbyist))
             lobbyist.fields_of_interests.extend(LrExtractor.extract_lobbies_from_lobbyist(interesting_lobbyist))
             for person in LrExtractor.extract_related_persons_from_lobbyist(interesting_lobbyist):
                 related_person = lobbyist.related_persons.add()
                 related_person.first_name = person["first_name"]
                 related_person.last_name = person["last_name"]
+            for person_client in LrExtractor.extract_person_client_names_from_lobbyist(interesting_lobbyist):
+                person_client_element = lobbyist.person_client_names.add()
+                person_client_element.first_name = person_client["first_name"]
+                person_client_element.last_name = person_client["last_name"]
+            lobbyist.donators.extend(LrExtractor.extract_donator_names_from_lobbyist(interesting_lobbyist))
             self.producer.produce_to_topic(lobbyist)
 
     @staticmethod
@@ -37,14 +43,18 @@ class LrExtractor:
         return list(map(lambda detailed_entry: detailed_entry["registerEntryDetail"], json_response["results"]))
 
     @staticmethod
+    def extract_lobbyist_id_from_lobbyist(lobbyist):
+        return str(lobbyist["id"])
+
+    @staticmethod
     def extract_lobbies_from_lobbyist(lobbyist):
         return list(map(lambda field_of_interest: field_of_interest["code"], lobbyist["fieldsOfInterest"]))
 
     @staticmethod
     def extract_lobbyist_name_from_lobbyist(lobbyist):
         if lobbyist["lobbyistIdentity"]["identity"] == "NATURAL":
-            return "%s %s".format(lobbyist["lobbyistIdentity"]["commonFirstName"],
-                                  lobbyist["lobbyistIdentity"]["lastName"])
+            return "{0} {1}".format(lobbyist["lobbyistIdentity"]["commonFirstName"],
+                                    lobbyist["lobbyistIdentity"]["lastName"])
         return lobbyist["lobbyistIdentity"]["name"]
 
     @staticmethod
@@ -62,9 +72,14 @@ class LrExtractor:
                 "last_name": person["lastName"]}
 
     @staticmethod
+    def extract_donator_names_from_lobbyist(lobbyist):
+        return list(map(lambda donator: donator["name"], lobbyist["donators"]))
+
+    @staticmethod
     def extract_related_persons_from_lobbyist(lobbyist):
         if lobbyist["lobbyistIdentity"]["identity"] == "NATURAL":
             return [LrExtractor.extract_name_information_from_person(lobbyist["lobbyistIdentity"])]
         return list(map(LrExtractor.extract_name_information_from_person,
-                        lobbyist["lobbyistIdentity"]["legalRepresentatives"])) + list(map(
-            LrExtractor.extract_name_information_from_person, lobbyist["lobbyistIdentity"]["namedEmployees"]))
+                        lobbyist["lobbyistIdentity"]["legalRepresentatives"])) + \
+               list(map(LrExtractor.extract_name_information_from_person,
+                        lobbyist["lobbyistIdentity"]["namedEmployees"]))

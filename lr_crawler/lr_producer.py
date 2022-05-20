@@ -1,4 +1,5 @@
 import logging
+import time
 
 from confluent_kafka import SerializingProducer
 from confluent_kafka.schema_registry import SchemaRegistryClient
@@ -17,6 +18,10 @@ class LrProducer:
         schema_registry_conf = {"url": SCHEMA_REGISTRY_URL}
         schema_registry_client = SchemaRegistryClient(schema_registry_conf)
 
+        for subject in schema_registry_client.get_subjects():
+            schema_registry_client.delete_subject(subject)
+        time.sleep(5)
+
         protobuf_serializer = ProtobufSerializer(
             lobbyist_pb2.Lobbyist, schema_registry_client, {"use.deprecated.format": True}
         )
@@ -31,7 +36,7 @@ class LrProducer:
 
     def produce_to_topic(self, lobbyist: Lobbyist):
         self.producer.produce(
-            topic=TOPIC, partition=-1, key=str(lobbyist.lobbyist_name), value=lobbyist, on_delivery=self.delivery_report
+            topic=TOPIC, partition=-1, key=lobbyist.lobbyist_id, value=lobbyist, on_delivery=self.delivery_report
         )
         # It is a naive approach to flush after each produce this can be optimised
         self.producer.poll()
