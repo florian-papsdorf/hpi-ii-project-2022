@@ -10,6 +10,10 @@ services:
       SCHEMA_REGISTRY_HOST_NAME: zookeeper
       ZOOKEEPER_CLIENT_PORT: 2181
       ZOOKEEPER_TICK_TIME: 2000
+    volumes:
+      - zookeeper_data:/var/lib/zookeeper/data
+      - zookeeper_logs:/var/lib/zookeeper/log
+      - zookeeper_secrets:/etc/zookeeper/secrets
 
   kafka:
     image: confluentinc/cp-kafka:7.0.1
@@ -47,6 +51,9 @@ services:
       KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
       KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
       KAFKA_SCHEMA_REGISTRY_URL: "schema-registry:8081"
+    volumes:
+      - kafka_data:/var/lib/kafka/data
+      - kafka_secrets:/etc/kafka/secrets
 
   schema-registry:
     image: confluentinc/cp-schema-registry:7.0.1
@@ -54,6 +61,8 @@ services:
     restart: always
     depends_on:
       - zookeeper
+    volumes:
+      - schemareg_secrets:/etc/schema-registry/secrets
     environment:
       SCHEMA_REGISTRY_HOST_NAME: schema-registry
       SCHEMA_REGISTRY_KAFKASTORE_BOOTSTRAP_SERVERS: "kafka:9092"
@@ -126,6 +135,10 @@ services:
       CONNECT_PLUGIN_PATH: /usr/share/java,/usr/share/confluent-hub-components,/data/connect-jars
     volumes:
       - ./connect/elastic-sink.json:/connect/elastic-sink.json
+      - kafka_data:/var/lib/kafka/data
+      - kafka_secrets:/etc/kafka/secrets
+      - kafka_connect_secrets:/etc/kafka-connect/secrets
+      - kafka_connect_jars:/etc/kafka-connect/jars
     command:
       - bash
       - -c
@@ -146,6 +159,8 @@ services:
     environment:
       - discovery.type=single-node
       - ES_JAVA_OPTS=-Xms512m -Xmx512m
+    volumes:
+      - elasticsearch_data:/usr/share/elasticsearch/data
     ports:
       - "9200:9200"
       - "9300:9300"
@@ -155,5 +170,21 @@ services:
     container_name: kibana
     depends_on:
       - elasticsearch
+    volumes:
+      - kibana_data:/usr/share/kibana/data
+      - kibana_config:/usr/share/kibana/config
     ports:
       - "5601:5601"
+
+volumes:
+  kafka_data:
+  kafka_secrets:
+  kafka_connect_secrets:
+  kafka_connect_jars:
+  schemareg_secrets:
+  zookeeper_data:
+  zookeeper_logs:
+  zookeeper_secrets:
+  kibana_config:
+  kibana_data:
+  elasticsearch_data:
