@@ -15,6 +15,36 @@ can find the documentation for setting up the project.
 
 ![](architecture.png)
 
+### German Transparency Register (Lobbyregister) Website
+
+The [German Transparency Register website](https://www.lobbyregister.bundestag.de/startseite?lang=de) gives information about 
+the interest representatives who have an impact on the political decision-making process.
+It contains for example companies and private persons, the money they spend for their interests, how many persons are 
+involved, in which associations they have memberships and in which areas of interest and projects they are working.
+
+The German Transparency Register provides some standard searches for example to 
+[get all active interest representatives](https://www.lobbyregister.bundestag.de/suche?pageSize=10&filter%5Bactivelobbyist%5D%5Btrue%5D=true&sort=NAME_ASC).
+It is also possible to download all the detail pages for the list. 
+Furthermore, when you already know for which company you want to have the information, you can also search for a company name
+([Quick Search](https://www.lobbyregister.bundestag.de/startseite?lang=de)).
+
+### LR Crawler
+The German Transparency Register crawler (lr_crawler) sends a get request to the url 
+https://www.lobbyregister.bundestag.de/sucheDetailJson?sort=REGISTRATION_DESC and extracts the needed information for 
+the following steps from the response. Because the dataset is only around 30 MB large. It is possible to crawl the 
+whole dataset.
+
+
+### lobbyist-events topic
+The `lobbyist-events` holds all the events produced by the `lr_crawler`. Each message in a Kafka topic
+consist of a key and value.
+
+The key type of this topic is `String`. The key `lobbyist_id` is extracted by the `lr_crawler` from the json file.
+
+The value of the message contains more information like `lobbyist_name`, `organization_client_names`, 
+`fields_of_interests`, `donators` and more. Therefore, the value type
+is complex and needs a schema definition.
+
 ### RB Website
 
 The [Registerbekanntmachung website](https://www.handelsregisterbekanntmachungen.de/index.php?aktion=suche) contains
@@ -58,29 +88,6 @@ the key will look like this: `rp_56267`.
 
 The value of the message contains more information like `event_name`, `event_date`, and more. Therefore, the value type
 is complex and needs a schema definition.
-
-
-### Lobby register Website
-
-The [Lobby register website](https://www.lobbyregister.bundestag.de/startseite?lang=de) gives information about 
-the interest representatives who have an impact on the political decision-making process.
-It contains for example companies and private persons, the money they spend for their interests, how many persons are 
-involved, in which associations they have memberships and in which areas of interest and projects they are working.
-
-The Lobbyregister provides some standard searches for example to 
-[get all active interest representatives](https://www.lobbyregister.bundestag.de/suche?pageSize=10&filter%5Bactivelobbyist%5D%5Btrue%5D=true&sort=NAME_ASC).
-It is also possible to download all the detail pages for the list. 
-Furthermore, when you already know for which company you want to have the information, you can also search for a company name
-([Quick Search](https://www.lobbyregister.bundestag.de/startseite?lang=de)).
-
-### LR Crawler
-The Lobbyregister crawler (lr_crawler) sends a get request to the url 
-https://www.lobbyregister.bundestag.de/sucheDetailJson?sort=REGISTRATION_DESC and extracts the needed information for 
-the following steps from the response. Because the dataset is only around 30 MB large. It is possible to crawl the 
-whole dataset.
-
-
-### lobbyism-events topic
 
 
 ### Kafka Connect
@@ -130,6 +137,15 @@ the [official documentation page](https://docs.confluent.io/kafka-connect-elasti
 To start the connector, you need to push the JSON config file to Kafka. You can either use the UI dashboard in Kowl or
 use the [bash script provided](./connect/push-config.sh). It is possible to remove a connector by deleting it
 through Kowl's UI dashboard or calling the deletion API in the [bash script provided](./connect/delete-config.sh).
+
+### LR Crawler
+You can start the crawler with the command below:
+
+```shell
+poetry run python lr_crawler/main.py
+```
+This command downloads the entire data set.
+
 
 ### RB Crawler
 
