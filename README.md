@@ -35,8 +35,8 @@ the following steps from the response. Because the dataset is only around 30 MB 
 whole dataset.
 
 
-### lobbyist-events topic
-The `lobbyist-events` holds all the events produced by the `lr_crawler`. Each message in a Kafka topic
+### lobbyism-events topic
+The `lobbyism-events` holds all the events produced by the `lr_crawler`. Each message in a Kafka topic
 consist of a key and value.
 
 The key type of this topic is `String`. The key `lobbyist_id` is extracted by the `lr_crawler` from the json file.
