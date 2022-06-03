@@ -3,7 +3,7 @@ import os
 
 import click
 
-from rb_crawler.constant import State
+from rb_crawler.state import State
 from rb_crawler.rb_extractor import RbExtractor
 
 logging.basicConfig(
