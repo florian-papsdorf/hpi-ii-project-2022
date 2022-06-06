@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package bakdata.corporate_detailed.v1;
+
+message Corporate_Detailed {
+  string id = 1;
+  uint32 rb_id = 2;
+  string state = 3;
+  string company_name = 4;
+  string event_date = 5;
+  string event_type = 6;
+  Status status = 7;
+  string information = 8;
+  repeated string persons = 9;
+}
+
+enum Status {
+  STATUS_UNSPECIFIED = 0;
+  STATUS_INACTIVE = 1;
+  STATUS_ACTIVE = 2;
+}
