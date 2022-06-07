@@ -45,11 +45,17 @@ class RbTransformer(MessageStakeholder):
         self.rb_consumer.consume()
 
     @staticmethod
-    def extract_company_name(information_field: str):
+    def extract_company_name_city(information_field: str):
         # parse by <ref_number>: <corporate_name>,<city>,<address>,<zip_code>,<city>
-        index_end_ref_number = information_field.find(":")
+        if information_field.startswith("HRB"):
+            index_end_ref_number = information_field.find(":")
+        else:
+            index_end_ref_number = -1
         index_end_corporate_name = information_field.find(",")
-        return information_field[index_end_ref_number + 1:index_end_corporate_name]
+        interesting_right_end = information_field[index_end_corporate_name + 1:]
+        index_end_city = interesting_right_end.find(",")
+        return information_field[index_end_ref_number + 1:index_end_corporate_name], interesting_right_end[
+                                                                                     0:index_end_city]
 
     @staticmethod
     def extract_persons(information_field: str, persons: list):
@@ -66,7 +72,13 @@ class RbTransformer(MessageStakeholder):
             delimiter = important_end.find(",")
             name_parts.append(important_end[1:delimiter])
             important_end = important_end[delimiter + 1:]
+        # standardization firstname, lastname
+        name_parts.reverse()
         person_name = " ".join(name_parts)
+        # normalization: remove obsolete appendices
+        name_appendices = ["Dr. ", "Dr ", "Prof. ", "Prof "]
+        for appendix in name_appendices:
+            person_name = person_name.replace(appendix, "")
         if person_name[0] == " ":
             person_name = person_name[1:]
         if len(person_name) < 25:
@@ -79,11 +91,13 @@ class RbTransformer(MessageStakeholder):
         detailed_corporate.id = corporate.id
         detailed_corporate.rb_id = corporate.rb_id
         detailed_corporate.state = corporate.state
-        detailed_corporate.company_name = RbTransformer.extract_company_name(corporate.information)
+        detailed_corporate.company_name, detailed_corporate.city = RbTransformer.extract_company_name_city(
+            corporate.information)
         detailed_corporate.event_date = corporate.event_date
         detailed_corporate.event_type = corporate.event_type
         detailed_corporate.status = corporate.status
         detailed_corporate.information = corporate.information
+        detailed_corporate.reference_id = corporate.reference_id
         detailed_corporate.persons.extend(RbTransformer.extract_persons(corporate.information, list()))
         self.producer.produce_to_topic(detailed_corporate)
 

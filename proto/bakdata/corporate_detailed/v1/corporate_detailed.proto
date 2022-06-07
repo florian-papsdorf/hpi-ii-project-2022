@@ -12,6 +12,8 @@ message Corporate_Detailed {
   Status status = 7;
   string information = 8;
   repeated string persons = 9;
+  string reference_id = 10;
+  string city = 11;
 }
 
 enum Status {
