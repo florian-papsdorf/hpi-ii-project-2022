@@ -1,0 +1,1699 @@
+{
+  "took": 320,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 99,
+    "max_score": 0,
+    "hits": [
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_789",
+        "_version": 0,
+        "_score": 0,
+        "_source": {
+          "id": "by_789",
+          "rb_id": 789,
+          "state": "by",
+          "reference_id": "HRB 155512",
+          "event_date": "03.01.2005",
+          "event_type": "create",
+          "status": "STATUS_ACTIVE",
+          "information": "Deutscher Kommunalverlag Dr. Naujoks & Behrendt Verwaltungsgesellschaft mbH, Unterschleißheim (Freisinger Str. 3, 85716 Unterschleißheim). Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 13.12.1995. Die Gesellschafterversammlung vom 14.10.2004 hat die Änderung des § 1 (Sitz, bisher Kriftel, Amtsgericht Frankfurt am Main, HRB 40970) der Satzung beschlossen. Gegenstand des Unternehmens: Beteiligung an anderen Gesellschaften sowie Verwaltung eigenen Vermögens. Stammkapital: 50.000,00 EUR. Geschäftsführer: Dr. Warth, Wilhelm, München, *08.07.1949. Nicht eingetragen: Bekanntmachungsblatt ist der Bundesanzeiger."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_790",
+        "_version": 1,
+        "_score": 0,
+        "_source": {
+          "id": "by_790",
+          "rb_id": 790,
+          "state": "by",
+          "reference_id": "HRB 155513",
+          "event_date": "03.01.2005",
+          "event_type": "create",
+          "status": "STATUS_ACTIVE",
+          "information": "Cross Marketing arvato services GmbH, München (Neumarkter Str. 18-22, 81673 München). Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 09.06.2000, zuletzt geändert am 07.08.2002. Die Gesellschafterversammlung vom 23.08.2004 mit Nachtrag vom 01.10.2004 hat die Änderung der §§ 1 (Firma, bisher 'arvato direct services Neumünster GmbH', und Sitz, bisher Neumünster, Amtsgericht Kiel, HRB 1679 NM ) sowie 2 (Gegenstand des Unternehmens) der Satzung beschlossen. Gegenstand des Unternehmens: Entwicklung und Vermarktung von Kundenbindungssystemen, Kundendaten, 1:1 Direktmarketing Dienstleistungen sowie Handelsdienstleistungen und Transaktionsinhalte. Stammkapital: 25.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Buch, Rolf Eberhard, Gütersloh, *02.04.1965, einzelvertretungsberechtigt. Bestellt Geschäftsführer: Hintzen, Marcus, München, *05.08.1964; Schmedtmann, Markus, Bielefeld, *16.12.1970, jeweils einzelvertretungsberechtigt. Prokura erloschen: Hermann, Torsten, Gütersloh, *22.09.1955. Einzelprokura: Henze, Kurt, Bielefeld-Senne, *14.01.1951; Dr. Cordes, Ulrich, Gütersloh, *20.09.1967. Die Gesellschaft hat am 18.07.2000 mit der Reinhard Mohn GmbH mt dem Sitz in Gütersloh (Amtsgericht Gütersloh HRB 3101) als herrschender Gesellschaft einen Beherrschungs- und Gewinnabführungsvertrag geschlossen, der durch Ausgliederungs- und Übernahmevertrag vom 13.12.2000 im Wege der Gesamtrechtsnachfolge auf die arvato direct services GmbH mit dem Sitz in Gütersloh (Amtsgericht Gütersloh HRB 3826) als herrschende Gesellschaft übertragen wurde. Die Gesellschafterversammlung hat mit Beschlüssen vom 15.08.2000 und 13.12.2000 zugestimmt. Nicht eingetragen: Bekanntmachungsblatt ist der Bundesanzeiger."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_791",
+        "_version": 2,
+        "_score": 0,
+        "_source": {
+          "id": "by_791",
+          "rb_id": 791,
+          "state": "by",
+          "reference_id": "HRB 155514",
+          "event_date": "03.01.2005",
+          "event_type": "create",
+          "status": "STATUS_ACTIVE",
+          "information": "ME Munich Enterprise GmbH, München (Marsstr. 14 b, 80335 München). Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 06.12.2004. Gegenstand des Unternehmens: Planung, Logistik, Organisation und Durchführung von Veranstaltungen, insbesondere Einzel- und Tourneeveranstaltungen auf dem Gebiet Unterhaltung und des Sports, begleitende PR- und Pressearbeit sowie Betreibung temporärer Camps mit Gastronomie. Stammkapital: 25.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Dr. Obst, Bernhard, Kirchheim, *15.05.1958, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht eingetragen: Bekanntmachungsblatt ist der Bundesanzeiger."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_808",
+        "_version": 19,
+        "_score": 0,
+        "_source": {
+          "id": "by_808",
+          "rb_id": 808,
+          "state": "by",
+          "reference_id": "HRB 155531",
+          "event_date": "04.01.2005",
+          "event_type": "create",
+          "status": "STATUS_ACTIVE",
+          "information": "Engelhard Holz Vertriebs-GmbH, München (Musenbergstr. 40, 81929 München). Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 20.12.2004. Gegenstand des Unternehmens: Erbringung von Serviceleistungen für die Albert Engelhard München GmbH & Co. KG (AEM) sowie für verbundene Unternehmen und Schwesterunternehmen. Zu den Serviceleistungen zählen vor allem Vertrieb, Marketing, Verwaltungsleistungen, insbesondere Buchhaltung und Personalverwaltung, sowie Finanzdienstleistungen, insbesondere Abwicklung von Bankgeschäften, beispielsweise Aufnahme von Darlehen für AEM oder Schwesterunternehmen. Stammkapital: 25.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Eickmeier, Uwe, Beilstein, *29.10.1954. Geschäftsführer: Engelhard-Neu, Claudia, München, *21.08.1954, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Einzelprokura mit der Ermächtigung zur Veräußerung und Belastung von Grundstücken: Engelhard, Walter, Dietramszell, *25.02.1927. Nicht eingetragen: Bekanntmachungsblatt ist der elektronische Bundesanzeiger."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_809",
+        "_version": 20,
+        "_score": 0,
+        "_source": {
+          "id": "by_809",
+          "rb_id": 809,
+          "state": "by",
+          "reference_id": "HRB 155532",
+          "event_date": "04.01.2005",
+          "event_type": "create",
+          "status": "STATUS_ACTIVE",
+          "information": "1A Denkmalsanierungs Verwaltungs GmbH, Mammendorf (Espenstr. 9, 82291 Mammendorf). Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 07.10.2004 mit Nachtrag vom 18.11.2004. Gegenstand des Unternehmens: Verwaltung eigenen Vermögens sowie Übernahme der Geschäftsführung und der Stellung als Komplementärin in der 1A Denkmalsanierungs GmbH & Co KG. Stammkapital: 25.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Franken, Michael, Mammendorf, *11.03.1968, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht eingetragen: Bekanntmachungsblatt ist der elektronische Bundesanzeiger."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_807",
+        "_version": 18,
+        "_score": 0,
+        "_source": {
+          "id": "by_807",
+          "rb_id": 807,
+          "state": "by",
+          "reference_id": "HRB 155530",
+          "event_date": "04.01.2005",
+          "event_type": "create",
+          "status": "STATUS_ACTIVE",
+          "information": "Josef Drexl-Schegg Verwaltungs-GmbH, Schwabhausen (Münchner Str. 4, 85247 Schwabhausen). Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 06.10.2004. Gegenstand des Unternehmens: Erwerb und Verwaltung von Beteiligungen sowie Übernahme der persönlichen Haftung und Geschäftsführung bei Handelsgesellschaften, insbesondere Beteiligung als persönlich haftende und geschäftsführende Gesellschafterin an der Kommanditgesellschaft in Firma\"Josef Drexl-Schegg GmbH & Co. KG\", mit Sitz in Schwabhausen, die den Werkzeugbau, Anschaffung, Herstellung und Verwaltung von Wirtschaftsgütern des Anlagevermögens von Handelsunternehmen, deren gewerbsmäßige Vermietung und Verpachtung an Handelsunternehmen, Durchführung von Investitionen und deren Finanzierung sowie Verwaltung eigenen und fremden Vermögens zum Gegenstand hat. Stammkapital: 25.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Drexl-Schegg, Josef, Schwabhausen, *03.02.1922; Drexl-Schegg, Christiane Maria, Schwabhausen, *22.04.1947; Drexl-Schegg, Daniela, Schwabhausen, *06.08.1971, jeweils einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht eingetragen: Bekanntmachungsblatt ist der Bayerische Staatsanzeiger."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_814",
+        "_version": 25,
+        "_score": 0,
+        "_source": {
+          "id": "by_814",
+          "rb_id": 814,
+          "state": "by",
+          "reference_id": "HRA 46407",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "AudioVisualArt Beteiligungs GmbH & Co. KG, Unterföhring (Beta-Str. 1, 85774 Unterföhring). Geändert, nun Persönlich haftender Gesellschafter: AudioVisualArt Verwaltungs GmbH, Unterföhring (AG München HRB 7259)."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_815",
+        "_version": 26,
+        "_score": 0,
+        "_source": {
+          "id": "by_815",
+          "rb_id": 815,
+          "state": "by",
+          "reference_id": "HRA 63247",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Hartmann GmbH & Co. Wohnungsbaugesellschaft KG, München (Wilbrechtstraße 55 b, 81477 München). Einzelprokura mit der Ermächtigung zur Veräußerung und Belastung von Grundstücken: Hartmann, Regina, München, *06.11.1973."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_817",
+        "_version": 28,
+        "_score": 0,
+        "_source": {
+          "id": "by_817",
+          "rb_id": 817,
+          "state": "by",
+          "reference_id": "HRA 71423",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Pipeline Development Filmproduktions- und entwicklungs GmbH & Co. KG, München (Georgenstraße 15, 80779 München). Die Gesellschaft ist aufgelöst. Die Gesellschaft wird durch den/die Liquidator/en vertreten. Liquidator: Seidel, Christian, München, *18.01.1959, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_818",
+        "_version": 29,
+        "_score": 0,
+        "_source": {
+          "id": "by_818",
+          "rb_id": 818,
+          "state": "by",
+          "reference_id": "HRA 71531",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "DOBA Grund Beteiligungs GmbH & Co. Objekte Berlin, Leipzig und Gelsenkirchen KG, München (Lilienthalallee 25, 80939 München). Eingetreten: Persönlich haftender Gesellschafter: Heiter, Hubert, München, *21.07.1955."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_811",
+        "_version": 22,
+        "_score": 0,
+        "_source": {
+          "id": "by_811",
+          "rb_id": 811,
+          "state": "by",
+          "reference_id": "HRB 155534",
+          "event_date": "04.01.2005",
+          "event_type": "create",
+          "status": "STATUS_ACTIVE",
+          "information": "Schreinerei Zinkel GmbH, München (Tegernseer Landstr. 161, 81539 München). Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 13.12.2004. Gegenstand des Unternehmens: Betrieb einer Schreinerei. Stammkapital: 25.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Zinkel, Werner Rudolf, München, *30.12.1946, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht eingetragen: Bekanntmachungsblatt ist der Bundesanzeiger."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_812",
+        "_version": 23,
+        "_score": 0,
+        "_source": {
+          "id": "by_812",
+          "rb_id": 812,
+          "state": "by",
+          "reference_id": "HRA 8437",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Veranstaltungsdienst Paul Mayr-GmbH & Co., München (Poccistr. 8, 80336 München). Geändert, nun: Persönlich haftender Gesellschafter: Paul Mayr Gesellschaft mit beschränkter Haftung, (AG München HRB 6316), mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_810",
+        "_version": 21,
+        "_score": 0,
+        "_source": {
+          "id": "by_810",
+          "rb_id": 810,
+          "state": "by",
+          "reference_id": "HRB 155533",
+          "event_date": "04.01.2005",
+          "event_type": "create",
+          "status": "STATUS_ACTIVE",
+          "information": "Nadler Verwaltung GmbH, Odelzhausen (Robert-Bosch-Str. 4, 85235 Odelzhausen). Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 14.12.2004. Gegenstand des Unternehmens: Erwerb und Verwaltung von Vermögen und Beteiligungen, sowie Übernahme der persönlichen Haftung und Geschäftsführung bei Handelsgesellschaften, insbesondere Beteiligung als persönlich haftende geschäftsführende Gesellschafterin an der Nadler Hartmetalle GmbH & Co. KG, deren Gegenstand Erzeugung, Bearbeitung und Vertrieb von hochvacuumgesinterten Hartmetallen, sowie Beratung zu deren Verwendung ist. Stammkapital: 25.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Nadler, Ernst-Jürgen, Odelzhausen, *18.12.1943; Nadler, Günter, Freienried, *21.05.1942, jeweils einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht eingetragen: Bekanntmachungsblatt ist der Bundesanzeiger."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_813",
+        "_version": 24,
+        "_score": 0,
+        "_source": {
+          "id": "by_813",
+          "rb_id": 813,
+          "state": "by",
+          "reference_id": "HRA 9210",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Die Münchner Heinzelmännchen Friedrich Wackler GmbH & Co. Gebäudereinigungs KG, München (Schatzbogen 39, 81829 München). Die Firma ist geändert. Neue Firma: Die Münchner Heinzelmännchen Friedrich Wackler GmbH & Co. KG."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_819",
+        "_version": 30,
+        "_score": 0,
+        "_source": {
+          "id": "by_819",
+          "rb_id": 819,
+          "state": "by",
+          "reference_id": "HRA 71978",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "ABG Allgemeine Bauträger- und Gewerbeimmobiliengesellschaft mbH & Co. Objekt Dornach KG, München (Einsteinring 1, 85609 Dornach). Der Sitz ist verlegt nach Dornach, Landkreis München."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_816",
+        "_version": 27,
+        "_score": 0,
+        "_source": {
+          "id": "by_816",
+          "rb_id": 816,
+          "state": "by",
+          "reference_id": "HRA 64288",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Rackl's Backstub'n Bäckerei und Konditorei Rackl GmbH & Co, Olching, Landkreis Fürstenfeldbruck (Johann-G.-Gutenbergstr.24, 82140 Olching). Die Firma ist geändert (Zusatz KG lt. Gesetz). Neue Firma: Rackl's Backstub'n Bäckerei und Konditorei Rackl GmbH & Co. KG. Prokura erloschen: Engel, Marcus, Langenpreising, *02.12.1973."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_793",
+        "_version": 4,
+        "_score": 0,
+        "_source": {
+          "id": "by_793",
+          "rb_id": 793,
+          "state": "by",
+          "reference_id": "HRB 155516",
+          "event_date": "03.01.2005",
+          "event_type": "create",
+          "status": "STATUS_ACTIVE",
+          "information": "Redline GmbH, München (Schackstr. 2, 80539 München). Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 09.07.2004. Die Gesellschafterversammlung vom 19.08.2004 hat die Änderung des § 1 (Sitz, bisher Köln, Amtsgericht Köln, HRB 53385) der Satzung beschlossen. Gegenstand des Unternehmens: Produktion, Erwerb sowie Beteiligung an TV-Filmen, TV-Serien, Kino-Filmen sowie weiteren audiovisuellen Produkten - in Zusammenarbeit mit internationalen Produktionsgesellschaften - sowie anschließende weltweite Verwertung der erworbenen Rechte durch Lizenzierung sowie Veräußerung. Stammkapital: 25.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Kamlah, Jochen, München, *25.04.1955, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht eingetragen: Bekanntmachungsblatt ist der Bundesanzeiger."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_794",
+        "_version": 5,
+        "_score": 0,
+        "_source": {
+          "id": "by_794",
+          "rb_id": 794,
+          "state": "by",
+          "reference_id": "HRB 155517",
+          "event_date": "03.01.2005",
+          "event_type": "create",
+          "status": "STATUS_ACTIVE",
+          "information": "Synidea München. Gesellschaft für Geschäftsentwicklung mbH, München (Josef-Spital-Str. 15, 80331 München). Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 02.12.2004. Gegenstand des Unternehmens: Beratung von Kunden in mündlicher und schriftlicher Form sowie alle hierzu erforderlichen Maßnahmen und Aktivitäten, u.a. auch Bereiche Innovations- und Veränderungsmanagement, Anbahnung von Geschäftsbeziehungen, Kooperationen und strategische Allianzenfür Kunden sowie Managementtraining. Ausgenommen sind erlaubnispflichtige Tätigkeiten jeder Art. Stammkapital: 25.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Dr. Schmidt, Gunther, München, *20.10.1966, einzelvertretungsberechtigt. Nicht eingetragen: Bekanntmachungsblatt ist der Bundesanzeiger."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_796",
+        "_version": 7,
+        "_score": 0,
+        "_source": {
+          "id": "by_796",
+          "rb_id": 796,
+          "state": "by",
+          "reference_id": "HRB 155519",
+          "event_date": "03.01.2005",
+          "event_type": "create",
+          "status": "STATUS_ACTIVE",
+          "information": "South East Gastro Verwaltungs GmbH, München (Geiselgasteigstr. 27, 81545 München). Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 06.10.2004. Gegenstand des Unternehmens: Geschäftsführung und Vertretung der South East Gastro GmbH & Co. KG als deren persönlich haftende Gesellschafterin. Gegenstand der South East Gastro GmbH & Co. KG ist Unterhaltung von Betrieben, Betriebsabteilungen und Einrichtungen, welche die Bewirtungvon Gästen gewähren. Stammkapital: 25.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Niemeyer, Bernd, München, *01.06.1954, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht eingetragen: Bekanntmachungsblatt ist der elektronische Bundesanzeiger."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_797",
+        "_version": 8,
+        "_score": 0,
+        "_source": {
+          "id": "by_797",
+          "rb_id": 797,
+          "state": "by",
+          "reference_id": "HRB 155520",
+          "event_date": "04.01.2005",
+          "event_type": "create",
+          "status": "STATUS_ACTIVE",
+          "information": "CBT Training & Consulting GmbH, München (Richard-Strauss-Str. 48, 81677 München). Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 17.03.1998, zuletzt geändert am 16.07.2004. Die Gesellschafterversammlung vom 25.11.2004 hat die Änderung der §§ 1 (Firma, bisher 'CBT Software Training GmbH', und Sitz, bisher Frankfurt am Main, Amtsgericht Frankfurt am Main, HRB 45101) der Satzung beschlossen. Gegenstand des Unternehmens: Erbringung von Dienstleistungen im IT-Bereich, insbesondere Durchführung von Seminaren und Beratungen sowie Handel mit Hard- und Software. Stammkapital: 121.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Bestellt Geschäftsführer: Bücherl, Gabriela, Grasbrunn, *11.04.1963. Ausgeschieden Geschäftsführer: Fahrnschon, Reinhold, Frankfurt am Main, *25.07.1956. Nicht eingetragen: Bekanntmachungsblatt ist der Bundesanzeiger."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_802",
+        "_version": 13,
+        "_score": 0,
+        "_source": {
+          "id": "by_802",
+          "rb_id": 802,
+          "state": "by",
+          "reference_id": "HRB 155525",
+          "event_date": "04.01.2005",
+          "event_type": "create",
+          "status": "STATUS_ACTIVE",
+          "information": "RENUM AG, München (Berliner Str. 85, 80805 München). Aktiengesellschaft. Satzung vom 21.12.2000. Die Hauptversammlung vom 30.11.2004 hat die Änderung des § 1 (Sitz, bisher Bonn, Amtsgericht Bonn, HRB 9431) der Satzung beschlossen. Gegenstand des Unternehmens: Ausschließlich Erwerb, Bebauung und Verwaltung des im Grundbuch des Amtsgerichts Bonn von Friesdorf, Blatt 2115, unter lfd. Nr. 8 des Bestandsverzeichnisses eingetragenen Grundbesitzes, Mildred-Scheel-Straße 1, 9.648 qm. Grundkapital: 250.000,00 EUR. Ist nur ein Vorstandsmitglied bestellt, so vertritt es die Gesellschaft allein. Sind mehrere Vorstandsmitglieder bestellt, so wird die Gesellschaft durch zwei Vorstandsmitglieder gemeinsam vertreten. Vorstand: Illsinger, Stephan, Frankfurt a.M., *08.10.1960. Entstanden durch formwechselnde Umwandlung der RENUM GmbH & Co. OHG mit dem Sitz in Bonn. Nicht eingetragen: Bekanntmachungsblatt ist der Bundesanzeiger (neben dem elektronischen Bundesanzeiger)."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_803",
+        "_version": 14,
+        "_score": 0,
+        "_source": {
+          "id": "by_803",
+          "rb_id": 803,
+          "state": "by",
+          "reference_id": "HRB 155526",
+          "event_date": "04.01.2005",
+          "event_type": "create",
+          "status": "STATUS_ACTIVE",
+          "information": "Ingenieurdienstleistungs- und Qualifizierungsgesellschaft mbH, München (Hansastr. 40, 1. Stock, 80686 München). Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 01.12.2004. Gegenstand des Unternehmens: Qualifizierung und Fortbildung von Arbeitnehmern zur Vorbereitung auf Wiedereingliederung in den ersten Arbeitsmarkt sowie Arbeitsvermittlung. Stammkapital: 25.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Maidl, Werner, München, *26.12.1954, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht eingetragen: Bekanntmachungsblatt ist der Bundesanzeiger."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_805",
+        "_version": 16,
+        "_score": 0,
+        "_source": {
+          "id": "by_805",
+          "rb_id": 805,
+          "state": "by",
+          "reference_id": "HRB 155528",
+          "event_date": "04.01.2005",
+          "event_type": "create",
+          "status": "STATUS_ACTIVE",
+          "information": "Sigl Verwaltungs GmbH, Ismaning (An der Erdinger Str. 12, 85737 Ismaning). Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 16.12.2004. Gegenstand des Unternehmens: Übernahme von Beteiligungen an anderen Gesellschaften, insbesondere Beteiligung als persönlich haftende Gesellschafterin an der Sigl Grundstücksverwaltungs GmbH & Co. KG mit dem Sitz in Ismaning, deren Gegenstand Verwaltung eigenen Vermögens ist. Stammkapital: 25.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Sigl, Franz, Ismaning, *25.07.1938; Sigl, Helga, Ismaning, *12.05.1941, jeweils einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht eingetragen: Bekanntmachungsblatt ist der Bundesanzeiger."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_806",
+        "_version": 17,
+        "_score": 0,
+        "_source": {
+          "id": "by_806",
+          "rb_id": 806,
+          "state": "by",
+          "reference_id": "HRB 155529",
+          "event_date": "04.01.2005",
+          "event_type": "create",
+          "status": "STATUS_ACTIVE",
+          "information": "Volkmer & Simon GmbH, München (Landshuter Allee 33, 80637 München). Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 23.12.2004. Gegenstand des Unternehmens: Softwareentwicklung und -vertrieb, Entwicklung und Vermarktung von Webseiten aller Art, Durchführung von Werbemaßnahmen insbesondere Internetmarketing sowie IT-Beratung. Stammkapital: 25.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Simon, Patrick, München, *18.02.1972; Volkmer, Florian, München, *30.10.1971, jeweils einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht eingetragen: Bekanntmachungsblatt ist der Bundesanzeiger."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_799",
+        "_version": 10,
+        "_score": 0,
+        "_source": {
+          "id": "by_799",
+          "rb_id": 799,
+          "state": "by",
+          "reference_id": "HRB 155522",
+          "event_date": "04.01.2005",
+          "event_type": "create",
+          "status": "STATUS_ACTIVE",
+          "information": "RK Bau GmbH, München (Posener Platz 1, 81929 München). Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 01.12.2004. Gegenstand des Unternehmens: Tätigkeit als Generalübernehmer. Stammkapital: 25.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Danhauser, Josef, München, *12.02.1950; Meyer, Gregor, München, *20.07.1959, jeweils einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht eingetragen: Bekanntmachungsblatt ist der Bayerische Staatsanzeiger."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_800",
+        "_version": 11,
+        "_score": 0,
+        "_source": {
+          "id": "by_800",
+          "rb_id": 800,
+          "state": "by",
+          "reference_id": "HRB 155523",
+          "event_date": "04.01.2005",
+          "event_type": "create",
+          "status": "STATUS_ACTIVE",
+          "information": "INITSOL GmbH, Neufahrn b. Freising, Ortsteil Hetzenhausen (Am Grasgarten 14, 85376 Hetzenhausen). Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 21.12.2004. Gegenstand des Unternehmens: IT-Beratung, Consulting und Dienstleistungen, Konzeption, Installation, Wartung und Support von Netzwerk-, Computer- und Telekommunikationssystemen, Internetdienstleistungen (Webdesign, Webhosting, E-Mail), Hard- und Software-Vertrieb. Stammkapital: 25.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Kürten, Thomas, Hetzenhausen, *24.06.1968, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht eingetragen: Bekanntmachungsblatt ist der Bundesanzeiger."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_795",
+        "_version": 6,
+        "_score": 0,
+        "_source": {
+          "id": "by_795",
+          "rb_id": 795,
+          "state": "by",
+          "reference_id": "HRB 155518",
+          "event_date": "03.01.2005",
+          "event_type": "create",
+          "status": "STATUS_ACTIVE",
+          "information": "ABSCON GmbH, Höhenkirchen-Siegertsbrunn (Anwanderstr. 3 a, 85635 Höhenkirchen). Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 07.02.2003. Die Gesellschafterversammlung vom 05.11.2004 hat die Erhöhung des Stammkapitals um 500,00 EUR auf 25.500,00 EUR und die Änderung des § 4 (Stammkapital) der Satzung beschlossen. Die Gesellschafterversammlung vom 05.11.2004 hat ferner die Änderung der §§ 1 (Sitz, bisher Ingolstadt, Amtsgericht Ingolstadt, HRB 3320) und 11 (Einziehung) der Satzung beschlossen. Gegenstand des Unternehmens: IT-Dienstleistungen insbesondere auf dem Beratungssektor, Aus- und Weiterbildung von Dritten sowie alle damit zusammenhängenden Tätigkeitsbereiche, Vertrieb und Entwicklung von Softwareprodukten insbesondere im Softwareverwaltungsbereich sowie alle damitverbundenen Dienstleistungen. Stammkapital: 25.500,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Süßmair, Reinhard, München, *22.03.1965, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Bestellt Geschäftsführer: Mayr, Richard, Höhenkirchen-Siegertsbrunn, *05.11.1952, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht eingetragen: Bekanntmachungsblatt ist der Bundesanzeiger."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_798",
+        "_version": 9,
+        "_score": 0,
+        "_source": {
+          "id": "by_798",
+          "rb_id": 798,
+          "state": "by",
+          "reference_id": "HRB 155521",
+          "event_date": "04.01.2005",
+          "event_type": "create",
+          "status": "STATUS_ACTIVE",
+          "information": "dildata GmbH, München (Adelheidstraße 7, 80798 München). Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 06.11.1998, zuletzt geändert am 15.09.2000. Die Gesellschafterversammlung vom 08.11.2004 hat die Änderung des § 1 (Sitz, bisher Frankfurt am Main,, Amtsgericht Frankfurt am Main, HRB 51329) der Satzung beschlossen. Gegenstand des Unternehmens: Entwicklung, Herstellung, Vertrieb und Lizenzierung von Software und Hardware sowie Vorprodukten. Hierzu gehören neben Neuentwicklung anwenderspezifischer Software auch Weiterentwicklung von Standardsoftware entsprechend den anwenderspezifischen Anforderungen. Die Gesellschaft ist des weiteren berechtigt, Dienstleistungen im Zusammenhang mit der Implementierung von Software und Hardware vorzunehmen. Stammkapital: 50.000,00 DEM. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Dillis, Ulrich, München, *31.10.1957. Nicht eingetragen: Bekanntmachungsblatt ist der Bundesanzeiger."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_792",
+        "_version": 3,
+        "_score": 0,
+        "_source": {
+          "id": "by_792",
+          "rb_id": 792,
+          "state": "by",
+          "reference_id": "HRB 155515",
+          "event_date": "03.01.2005",
+          "event_type": "create",
+          "status": "STATUS_ACTIVE",
+          "information": "advallion Vertriebsgesellschaft mbH, Grasbrunn (Bretonischer Ring 7, 85630 Grasbrunn). Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 17.12.2004. Gegenstand des Unternehmens: Dienstleistungen, insbesondere Softwarevertrieb, -entwicklung, -wartung, Beratung und Schulung auf dem Gebiet der verteilten Informationsverarbeitung. Stammkapital: 25.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Jurgeneit, Günter, Bad Lippspringe, *11.01.1958, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht eingetragen: Bekanntmachungsblatt ist der Bundesanzeiger."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_804",
+        "_version": 15,
+        "_score": 0,
+        "_source": {
+          "id": "by_804",
+          "rb_id": 804,
+          "state": "by",
+          "reference_id": "HRB 155527",
+          "event_date": "04.01.2005",
+          "event_type": "create",
+          "status": "STATUS_ACTIVE",
+          "information": "Europäische Akademie für zahnärztliche Fort- und Weiterbildung der Bayerischen Landeszahnärztekammer GmbH, München (Fallstr. 34, 81369 München). Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 22.12.2004. Gegenstand des Unternehmens: Durchführung der zahnärztlichen Fort- und Weiterbildung über Fortbildungsveranstaltungen, Kongresse und Medien. Stammkapital: 250.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Grüner, Stephan, München, *16.02.1970, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht eingetragen: Bekanntmachungsblatt ist der Bayerische Staatsanzeiger."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_801",
+        "_version": 12,
+        "_score": 0,
+        "_source": {
+          "id": "by_801",
+          "rb_id": 801,
+          "state": "by",
+          "reference_id": "HRB 155524",
+          "event_date": "04.01.2005",
+          "event_type": "create",
+          "status": "STATUS_ACTIVE",
+          "information": "Transfert GmbH, München (Am Haselnußstrauch 13, 80935 München). Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 02.12.2004. Gegenstand des Unternehmens: Groß- und Einzelhandel sowie Import/Export mit Kunstdünger. Stammkapital: 25.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Farkas, Miklós, Bekescsaba/Ungarn, *01.09.1964, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht eingetragen: Bekanntmachungsblatt ist der Bundesanzeiger."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_820",
+        "_version": 31,
+        "_score": 0,
+        "_source": {
+          "id": "by_820",
+          "rb_id": 820,
+          "state": "by",
+          "reference_id": "HRA 76853",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Kaiser Vierte KG, München (Widenmayerstr. 6, 80538 München). Die Gesellschaft ist aufgelöst. Die Liquidation ist beendet. Die Firma ist erloschen."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_821",
+        "_version": 32,
+        "_score": 0,
+        "_source": {
+          "id": "by_821",
+          "rb_id": 821,
+          "state": "by",
+          "reference_id": "HRA 78236",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Stauch Bau GmbH & Co. KG, Neuried, Landkreis München (Josef-Doll-Str. 11, 82061 Neuried). Die Gesellschaft ist auf Grund des Verschmelzungsvertrages vom 11.11.2004 sowie der Beschlüsse der Gesellschafterversammlungen vom selben Tag mit der Stauch Bau GmbH mit dem Sitz in Kupferzell (Amtsgericht Schwäbisch Hall, HRB 1114 Ö) verschmolzen. Die Verschmelzung wird erst wirksam mit der Eintragung der Verschmelzung in das Handelsregister der übernehmenden Gesellschaft. Nicht eingetragen: Den Gläubigern der an der Verschmelzung beteiligten Rechtsträger, ist wenn sie binnen sechs Monaten nach dem Tag, an dem die Eintragung der Verschmelzung in das Register des Sitzes desjenigen Rechtsträgers, dessen Gläubiger sie sind, nach § 19 Abs. 3 UmwG als bekanntgemacht gilt, ihren Anspruch nach Grund und Höhe schriftlich anmelden, Sicherheit zu leisten, soweit sie nicht Befriedigung verlangen können. Dieses Recht steht ihnen jedoch nur zu, wenn sie glaubhaft machen, daß durch die Verschmelzung die Erfüllung ihrer Forderung gefährdet wird."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_829",
+        "_version": 40,
+        "_score": 0,
+        "_source": {
+          "id": "by_829",
+          "rb_id": 829,
+          "state": "by",
+          "reference_id": "HRA 70203",
+          "event_date": "30.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Kommanditgesellschaft TRAVEL OVERLAND Flugreisen GmbH & Co., München (Saarstr. 7, 80797 München). Die Travelocity Holdings GmbH mit dem Sitz in München (Amtsgericht München, HRB 141917) ist auf Grund des Verschmelzungsvertrages vom 21.12.2004 und der Beschlüsse der Gesellschafterversammlungen vom selben Tag mit der Gesellschaft verschmolzen. Nicht eingetragen: Den Gläubigern der an der Verschmelzung beteiligten Rechtsträger, ist wenn sie binnen sechs Monaten nach dem Tag, an dem die Eintragung der Verschmelzung in das Register des Sitzes desjenigen Rechtsträgers, dessen Gläubiger sie sind, nach § 19 Abs. 3 UmwG als bekanntgemacht gilt, ihren Anspruch nach Grund und Höhe schriftlich anmelden, Sicherheit zu leisten, soweit sie nicht Befriedigung verlangen können. Dieses Recht steht ihnen jedoch nur zu, wenn sie glaubhaft machen, daß durch die Verschmelzung die Erfüllung ihrer Forderung gefährdet wird."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_830",
+        "_version": 41,
+        "_score": 0,
+        "_source": {
+          "id": "by_830",
+          "rb_id": 830,
+          "state": "by",
+          "reference_id": "HRA 84277",
+          "event_date": "30.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Euro-Clean eK, München (Adlzreiterstr. 18, 80337 München). Nicht mehr Inhaber: Nassiopoulos Eleftherios, München, *04.05.1976. Neuer Inhaber: Heinrich Markus, Herrsching, *23.10.1973. Der Übergang der in dem Betrieb des Geschäfts begründeten Forderungen oder Verbindlichkeiten ist bei dem Erwerb des Geschäfts durch Heinrich Markus, Herrsching, *23.10.1973 ausgeschlossen."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_823",
+        "_version": 34,
+        "_score": 0,
+        "_source": {
+          "id": "by_823",
+          "rb_id": 823,
+          "state": "by",
+          "reference_id": "HRA 84206",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "HS Eurofonds GmbH & Co. KG, München (Richard-Wagner-Str. 7, 80333 München). Die Firma ist geändert. Neue Firma: HS Italienfonds 1 GmbH & Co. KG."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_824",
+        "_version": 35,
+        "_score": 0,
+        "_source": {
+          "id": "by_824",
+          "rb_id": 824,
+          "state": "by",
+          "reference_id": "HRA 84714",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "MidCapFund GmbH & Co. Genussrechte KG, München (Lindenstr. 38/II, 81545 München). Eingetreten: Persönlich haftender Gesellschafter: ECFA European Corporate Finance Association GmbH, Luxemburg (Registre de Commerce et des Sociétés Luxembourg Section B 85555), mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Ausgeschieden: Persönlich haftender Gesellschafter: MidCapFund Management GmbH, München (Amtsgericht München, HRB 149380). Gesamtprokura gemeinsam mit einem anderen Prokuristen: Höhl, Jens, Grünwald, *13.12.1957; Bauer, Wolfgang, Schonstett, *19.05.1949."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_832",
+        "_version": 43,
+        "_score": 0,
+        "_source": {
+          "id": "by_832",
+          "rb_id": 832,
+          "state": "by",
+          "reference_id": "HRA 14179",
+          "event_date": "03.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Dirndl - Ecke am Platzl Hans Indra KG., München (Staudenstraße 40, 86850 Fischach). Die Gesellschaft ist aufgelöst. Sie wird durch den/die Liquidator/en vertreten. Liquidatorin: Gebler-Indra Martha Maria, Kauffrau, Fischach, *18.10.1945, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Prokura erloschen: Indra Martha Frieda Wilhelmine, Unterpfaffenhofen."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_833",
+        "_version": 44,
+        "_score": 0,
+        "_source": {
+          "id": "by_833",
+          "rb_id": 833,
+          "state": "by",
+          "reference_id": "HRA 46689",
+          "event_date": "03.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Simon Gruber - GmbH & Co. KG, Ottobrunn, Landkreis München (Rosenheimer Landstr.50, 85521 Ottobrunn). Prokuren erloschen: Anzi, Armin, Landsham, *08.04.1969; Anzi, Thomas, Haar, *16.01.1973."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_826",
+        "_version": 37,
+        "_score": 0,
+        "_source": {
+          "id": "by_826",
+          "rb_id": 826,
+          "state": "by",
+          "reference_id": "HRA 44472",
+          "event_date": "30.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Fritz Neidhart GmbH & Co. KG Holzwerke, Weilheim (Münchnerstr. 65-67, 82362 Weilheim). Prokura erloschen: Neidhart, Xaver, Weilheim."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_827",
+        "_version": 38,
+        "_score": 0,
+        "_source": {
+          "id": "by_827",
+          "rb_id": 827,
+          "state": "by",
+          "reference_id": "HRA 47559",
+          "event_date": "30.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Schneider & Münzing, München (Delpstr. 11, 81677 München). Die Gesellschaft wird durch den Nachtragsliquidator vertreten. Liquidator: Troß, Burckhardt, München, *29.04.1949, einzelvertretungsberechtigt."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_825",
+        "_version": 36,
+        "_score": 0,
+        "_source": {
+          "id": "by_825",
+          "rb_id": 825,
+          "state": "by",
+          "reference_id": "HRA 84786",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Nestbau Objekt Sittenbach GmbH & Co. KG, Odelzhausen, Landkreis Dachau (Glonnstr. 3, 85235 Odelzhausen). Die Firma ist geändert. Neue Firma: Nestbau GmbH & Co. KG."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_822",
+        "_version": 33,
+        "_score": 0,
+        "_source": {
+          "id": "by_822",
+          "rb_id": 822,
+          "state": "by",
+          "reference_id": "HRA 84160",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Lenz Motorentechnik e.K., Kirchseeon, Landkreis Ebersberg (Ottostraße 2, 85622 Feldkirchen). Die Niederlassung ist verlegt nach Feldkirchen, Landkreis München."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_831",
+        "_version": 42,
+        "_score": 0,
+        "_source": {
+          "id": "by_831",
+          "rb_id": 831,
+          "state": "by",
+          "reference_id": "HRA 85038",
+          "event_date": "30.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "B & G Kfz GmbH & Co. KG, München (Landsberger Str. 143, 80339 München). Die Firma ist geändert. Neue Firma: Automag Buchner & Linse GmbH & Co. KG."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_828",
+        "_version": 39,
+        "_score": 0,
+        "_source": {
+          "id": "by_828",
+          "rb_id": 828,
+          "state": "by",
+          "reference_id": "HRA 59877",
+          "event_date": "30.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "ACA Grundstücksverwaltungsgesellschaft mbH & Co Gartencenter KG, Grünwald, Landkreis München (Südliche Münchner Str. 1, 82031 Grünwald). Die Firma ist geändert. Neue Firma: Center Grundstücksverwaltung GmbH & Co. Objekt Zweiundfünfzig KG. Ausgeschieden: persönlich haftender Gesellschafter Center Grundstücksverwaltungsgesellschaft mbH, Sitz: Berg (AG München HRB 71813); als persönlich haftender Gesellschafter eingetreten: GEL Grundstücksverwaltungsgesellschaft mbH & Co. Objekt Eins KG, Grünwald (AG München HRA 66657)."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_834",
+        "_version": 45,
+        "_score": 0,
+        "_source": {
+          "id": "by_834",
+          "rb_id": 834,
+          "state": "by",
+          "reference_id": "HRA 59193",
+          "event_date": "03.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Lerchl-Druck Inh.: Josef Lerchl, Freising (Liebigstr. 32, 85354 Freising). Neue Firma: Lerchl-Druck e.K. Nicht mehr Inhaber: Lerchl, Josef, Druckereiinhaber, Freising. Nun Inhaber: Lerchl, Siegfried, Palzing, *04.05.1955. Prokura erloschen: Lerchl, Siegfried, Palzing."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_835",
+        "_version": 46,
+        "_score": 0,
+        "_source": {
+          "id": "by_835",
+          "rb_id": 835,
+          "state": "by",
+          "reference_id": "HRA 61109",
+          "event_date": "03.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Bahnhof-Apotheke Marianne Rath, Penzberg, Landkreis Weilheim-Schongau (Bahnhofstr. 21, 82377 Penzberg). Offene Handelsgesellschaft. Die Firma ist geändert. Neue Firma: Bahnhof-Apotheke OHG. Jeder persönlich haftende Gesellschafter vertritt einzeln. Geändert, nun Persönlich haftender Gesellschafter: Rath, Marianne, Apothekerin, Penzberg. Eingetreten Persönlich haftender Gesellschafter: Wenzel, Karin, Penzberg, *31.01.1967."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_836",
+        "_version": 47,
+        "_score": 0,
+        "_source": {
+          "id": "by_836",
+          "rb_id": 836,
+          "state": "by",
+          "reference_id": "HRA 66784",
+          "event_date": "03.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Rewe Markt Günther Schmidt KG, München (Ungererstr. 163, 80805 München). Einzelkaufmann / Einzelkauffrau. Die Gesellschaft ist aufgelöst. Die Firma ist geändert. Neue Firma: Günther Schmidt eK. Der Inhaber / die Inhaberin handelt allein. Geändert, nun Inhaber: Schmidt, Günther, Ergoldsbach, *16.07.1954."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_837",
+        "_version": 48,
+        "_score": 0,
+        "_source": {
+          "id": "by_837",
+          "rb_id": 837,
+          "state": "by",
+          "reference_id": "HRA 68431",
+          "event_date": "03.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "WD Kunststofftechnik K. Riedel GmbH & Co. KG, Bergkirchen, Landkreis Dachau (Neufeldtstr. 9 - 9 a, 85232 Bergkirchen/Günding). Die Firma ist geändert, nun: WD Kunststofftechnik GmbH & Co. KG."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_838",
+        "_version": 49,
+        "_score": 0,
+        "_source": {
+          "id": "by_838",
+          "rb_id": 838,
+          "state": "by",
+          "reference_id": "HRA 71025",
+          "event_date": "03.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "D & P Vermögensverwaltungsgesellschaft mbH Sr Co. ComCity Potsdam, Objekt M/N KG, München (Maximiliansplatz 12, 80333 München). Ausgeschieden Persönlich haftender Gesellschafter: D & P Vermögensverwaltungsgesellschaft mbH, Grünwald (AG München HRB 111316). Eingetreten Persönlich haftender Gesellschafter: D & P Verwaltungsgesellschaft mbH, München (AG München HRB 155347)."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_839",
+        "_version": 50,
+        "_score": 0,
+        "_source": {
+          "id": "by_839",
+          "rb_id": 839,
+          "state": "by",
+          "reference_id": "HRA 71026",
+          "event_date": "03.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "D & P Vermögensverwaltungsgesellschaft mbH & Co. ComCity Potsdam, Objekt C KG, München (Maximiliansplatz 12, 80333 München). Ausgeschieden Persönlich haftender Gesellschafter: D & P Vermögensverwaltungsgesellschaft mbH, Sitz: Grünwald (AG München HRB 111316). Eingetreten Persönlich haftender Gesellschafter: D & P Verwaltungsgesellschaft mbH, München (AG München HRB 155347)."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_840",
+        "_version": 51,
+        "_score": 0,
+        "_source": {
+          "id": "by_840",
+          "rb_id": 840,
+          "state": "by",
+          "reference_id": "HRA 72757",
+          "event_date": "03.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "AAM Augenklinik am Marienplatz GmbH & Co. KG, München (Marienplatz 18/19, 80331 München). Firma geändert: AAM Augenklinik am Marienplatz AG & Co. KG. Durch Formwechsel geändert Persönlich haftender Gesellschafter: AAM Augenklinik am Marienplatz Verwaltungs AG, München (AG München HRB 154296)."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_841",
+        "_version": 52,
+        "_score": 0,
+        "_source": {
+          "id": "by_841",
+          "rb_id": 841,
+          "state": "by",
+          "reference_id": "HRA 72780",
+          "event_date": "03.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Knittel Danilof Beteiligungs-GmbH & Co. KG, Grünwald,, Landkreis München (Adalbert-Stifter-Str. 19 A, 82031 Grünwald,). Die Gesellschaft ist aufgelöst. Die Gesellschaft wird durch den/die Liquidator/en vertreten. Bestellt Liquidator: Dr. Knittel, Wilhelm, Grünwald, *10.03.1935."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_842",
+        "_version": 53,
+        "_score": 0,
+        "_source": {
+          "id": "by_842",
+          "rb_id": 842,
+          "state": "by",
+          "reference_id": "HRA 79595",
+          "event_date": "03.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "P & A Capital GmbH & Co. KG, Gröbenzell, Landkreis Fürstenfeldbruck (Seidlstr. 18, 80335 München). Der Sitz ist verlegt nach München. Neue Firma: Artemis Group GmbH & Co. KG. Geändert, nun: Persönlich haftender Gesellschafter: Artemis Group Verwaltungs GmbH, München (Amtsgericht München, HRB 141094)."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_843",
+        "_version": 54,
+        "_score": 0,
+        "_source": {
+          "id": "by_843",
+          "rb_id": 843,
+          "state": "by",
+          "reference_id": "HRA 82543",
+          "event_date": "03.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "AID Technische Dokumentationen GmbH & Co. KG, Ottobrunn, Landkreis München (Einsteinstr. 28, 85521 Ottobrunn). Einzelprokura: Hartwig, Ingeborg, Taufkirchen, *15.05.1951. Prokura erloschen: Waldmann, Robert, Unterschleißheim, *29.09.1964."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_844",
+        "_version": 55,
+        "_score": 0,
+        "_source": {
+          "id": "by_844",
+          "rb_id": 844,
+          "state": "by",
+          "reference_id": "HRA 84300",
+          "event_date": "03.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "RMM 40 GmbH & Co. KG, München (Ludwig-Ganghofer-Str. 7, 82031 Grünwald). Die Firma ist geändert. Neue Firma: Infraplan GmbH & Co. Städtebau KG. Neuer Sitz: Grünwald, Landkreis München. Eingetreten Persönlich haftender Gesellschafter: Infraplan Grundbesitz GmbH, Sitz: München (Amtsgericht München HRB 151936). Ausgeschieden Persönlich haftender Gesellschafter: RM Komplementär GmbH, München (Amtsgericht München, HRB 145551)."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_845",
+        "_version": 56,
+        "_score": 0,
+        "_source": {
+          "id": "by_845",
+          "rb_id": 845,
+          "state": "by",
+          "reference_id": "HRA 84542",
+          "event_date": "03.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "L-Club GmbH & Co. KG, München (Wurzer Str. 18, 80539 München). Die Firma ist geändert. Neue Firma: L-BAR GmbH & Co. KG."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_846",
+        "_version": 57,
+        "_score": 0,
+        "_source": {
+          "id": "by_846",
+          "rb_id": 846,
+          "state": "by",
+          "reference_id": "HRA 84921",
+          "event_date": "03.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Vilgertshofer Objekt Kommanditgesellschaft, Alling, Landkreis Fürstenfeldbruck (Am Hartholz 1, 82239 Alling). Neue Firma: Vilgertshofer Objekt GmbH & Co. KG. Ausgeschieden: Persönlich haftender Gesellschafter: Vilgertshofer, Thomas, Alling, *26.04.1969. Eingetreten: Persönlich haftender Gesellschafter: Vilgertshofer Objekt Verwaltungs GmbH, Alling (AG München HRB 154903), mit der Befugnis, auch deren jeweilige Geschäftsführer, die Gesellschaft bei Rechtsgeschäften mit sich selbst oder als Vertreter eines Dritten uneingeschränkt zu vertreten."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_847",
+        "_version": 58,
+        "_score": 0,
+        "_source": {
+          "id": "by_847",
+          "rb_id": 847,
+          "state": "by",
+          "reference_id": "HRA 85372",
+          "event_date": "03.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Anta Karana Nikolas Albrecht Reisen e.K., Herrsching-Breitbrunn (Schulstr. 7, 82211 Herrsching-Breitbrunn). Einzelkaufmann / Einzelkauffrau. Der Inhaber / die Inhaberin handelt allein. Inhaber: Albrecht, Nikolas, Herrsching-Breitbrunn, *04.12.1957. Die Niederlassung ist von Hamburg (AG Hamburg, HRA 90382) nach Herrsching-Breitbrunn verlegt."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_848",
+        "_version": 59,
+        "_score": 0,
+        "_source": {
+          "id": "by_848",
+          "rb_id": 848,
+          "state": "by",
+          "reference_id": "HRA 85375",
+          "event_date": "03.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Johann Rückert e.K., München (Sedanstr. 26, 81667 München). Neue Firma: Johann Rückert, Inh. Bernhard Jonas e.K. Ausgeschieden: Inhaber: Rückert, Johann, München, *06.08.1932. Nun Inhaber: Jonas, Bernhard, München, *12.12.1961. Der Übergang der in dem Betrieb des Geschäfts begründeten Verbindlichkeiten ist bei dem Erwerb des Geschäfts durch Jonas, Bernhard, München, *12.12.1961 ausgeschlossen."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_849",
+        "_version": 60,
+        "_score": 0,
+        "_source": {
+          "id": "by_849",
+          "rb_id": 849,
+          "state": "by",
+          "reference_id": "HRA 44035",
+          "event_date": "04.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Vermögensverwaltungsgesellschaft Wilhelm Neudecker & Co. KG, München (Effnerstr. 70, 81925 München). Ausgeschieden Persönlich haftender Gesellschafter: Neudecker, Maria Magdalena, Hausfrau, München. Eingetreten Persönlich haftender Gesellschafter: Neudecker, Markus, München, *23.06.1971. Prokura erloschen: Neudecker, Markus, München."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_850",
+        "_version": 61,
+        "_score": 0,
+        "_source": {
+          "id": "by_850",
+          "rb_id": 850,
+          "state": "by",
+          "reference_id": "HRA 58169",
+          "event_date": "04.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Heinrich Eichler, Betriebswirt (VWA), München (Prinzregentenstr. 73, 81675 München). Kommanditgesellschaft. Der Übergang der in dem Betrieb des einzelkaufmännischen Geschäfts begründeten Verbindlichkeiten ist hinsichtlich der eingetragenen Kommanditeinlage in Höhe von 10.000,00 EUR der Kommanditistin Eichler, Renate, Baldham, *06.07.1941 ausgeschlossen. Neue Firma: H. Eichler KG. Jeder persönlich haftende Gesellschafter vertritt einzeln. Geändert, nun Persönlich haftender Gesellschafter: Eichler, Heinrich, Baldham, *11.11.1941."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_851",
+        "_version": 62,
+        "_score": 0,
+        "_source": {
+          "id": "by_851",
+          "rb_id": 851,
+          "state": "by",
+          "reference_id": "HRA 61051",
+          "event_date": "04.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Buchhandlung Rolles OHG, Penzberg, Landkreis Weilheim- Schongau (Bahnhofstr. 18, 82377 Penzberg). Ausgeschieden Persönlich haftender Gesellschafter: Rolles, Horst, Buchhändler, Penzberg."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_852",
+        "_version": 63,
+        "_score": 0,
+        "_source": {
+          "id": "by_852",
+          "rb_id": 852,
+          "state": "by",
+          "reference_id": "HRA 65930",
+          "event_date": "04.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Werner Becker, Fürstenfeldbrruck (Liebigstraße 1, 82256 Fürstenfeldbruck). Nun: Offene Handelsgesellschaft. Neue Firma: Werner Becker oHG. Jeder persönlich haftende Gesellschafter vertritt einzeln. Jeder persönlich haftende Gesellschafter ist befugt, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte vorzunehmen. Geändert, nun: Persönlich haftender Gesellschafter: Becker, Werner, Emmering, *26.09.1947. Eingetreten: Persönlich haftender Gesellschafter: Becker, Sabine, Fürstenfeldbruck, *06.11.1973."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_853",
+        "_version": 64,
+        "_score": 0,
+        "_source": {
+          "id": "by_853",
+          "rb_id": 853,
+          "state": "by",
+          "reference_id": "HRA 70570",
+          "event_date": "04.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "MOBA Verwaltungsgesellschaft mbH & Co. Objekt Zarrentin Süd KG, München (Metzstraße 14, 81667 München). Die Gesellschaft ist aufgelöst. Die Gesellschaft wird durch den Liquidator vertreten. Bestellt Liquidator: MOBA Verwaltungsgesellschaft mbH, München, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_854",
+        "_version": 65,
+        "_score": 0,
+        "_source": {
+          "id": "by_854",
+          "rb_id": 854,
+          "state": "by",
+          "reference_id": "HRA 70573",
+          "event_date": "04.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "MOBA Verwaltungsgesellschaft mbH & Co. Objekt Biegener Hellen KG, München (Metzstraße 14, 81667 München). Die Gesellschaft ist aufgelöst. Die Gesellschaft wird durch den/die Liquidator/en vertreten. Geändert, nun pers.haftender Gesellschafter u. Liquidator: MOBA Verwaltungsgesellschaft mbH, Sitz: München (AG München HRB 110969), mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_855",
+        "_version": 66,
+        "_score": 0,
+        "_source": {
+          "id": "by_855",
+          "rb_id": 855,
+          "state": "by",
+          "reference_id": "HRA 71477",
+          "event_date": "04.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "ABC Teletec Nikolaus Krammer, München (Fürstenrieder Str. 11, 80687 München). Die Firma ist geändert. Neue Firma: ABC Copytec Krammer e.K."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_856",
+        "_version": 67,
+        "_score": 0,
+        "_source": {
+          "id": "by_856",
+          "rb_id": 856,
+          "state": "by",
+          "reference_id": "HRA 76330",
+          "event_date": "04.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "MEGACON ImmoMarkt GmbH & Co. KG, München (Schatzbogen 86, 81829 München). Einzelprokura: Kreidl, Rudolf, Lappersdorf, *05.05.1954."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_857",
+        "_version": 68,
+        "_score": 0,
+        "_source": {
+          "id": "by_857",
+          "rb_id": 857,
+          "state": "by",
+          "reference_id": "HRA 83713",
+          "event_date": "04.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "A.P.F. Allgemeine Putz Fee e.K., München (Hanfstaenglstr. 9, 80638 München). Der Übergang der in dem Betrieb des Geschäfts begründeten Verbindlichkeiten ist bei dem Erwerb des Geschäfts durch Bojan, Eric, München, *05.05.1984 ausgeschlossen. ausgeschieden Inhaber: Kretzschmar, Kristina, geb. Nedeljkovic, München, *28.09.1961. nun Inhaber: Bojan, Eric, München, *05.05.1984."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_858",
+        "_version": 69,
+        "_score": 0,
+        "_source": {
+          "id": "by_858",
+          "rb_id": 858,
+          "state": "by",
+          "reference_id": "HRA 85393",
+          "event_date": "04.01.2005",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Augenoptik Uhren Schmuck Kaiser e.K., München (Eversbuschstr. 133, 80999 München). Ausgeschieden Inhaber: Kaiser, Irmgard, geb. Schuldes, München, *11.04.1952. Eingetreten Inhaber: Höcherl, Eva, München, *24.12.1964."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_859",
+        "_version": 70,
+        "_score": 0,
+        "_source": {
+          "id": "by_859",
+          "rb_id": 859,
+          "state": "by",
+          "reference_id": "HRB 5881",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Erdgas Südbayern GmbH, München (Ungsteiner Str.31, 81539 München). Gesamtprokura gemeinsam mit einem Geschäftsführer oder einem anderen Prokuristen: Heun, Martin, Stephanskirchen, *06.07.1963."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_860",
+        "_version": 71,
+        "_score": 0,
+        "_source": {
+          "id": "by_860",
+          "rb_id": 860,
+          "state": "by",
+          "reference_id": "HRB 7413",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Verlag Neuer Merkur GmbH, München (Paul-Gerhardt-Allee 46, 81245 München). Ausgeschieden Geschäftsführer: Bierschenck, Aglaia, München, *16.09.1980. Bestellt Geschäftsführer: Dr. Schaller-Kremmin, Angelika, München, *01.01.1957, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_861",
+        "_version": 72,
+        "_score": 0,
+        "_source": {
+          "id": "by_861",
+          "rb_id": 861,
+          "state": "by",
+          "reference_id": "HRB 7534",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "RUSEG Verwaltungs-GmbH, München (Mühldorfstr. 15, 81671 München). Die Gesellschafterversammlung vom 21.12.2004 hat die Änderung des § 5 (Vertretungsregelung) der Satzung beschlossen."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_862",
+        "_version": 73,
+        "_score": 0,
+        "_source": {
+          "id": "by_862",
+          "rb_id": 862,
+          "state": "by",
+          "reference_id": "HRB 41226",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Telair International GmbH, Miesbach (Bodenschneidstr. 2, 83714 Miesbach). Die Gesellschafterversammlung vom 24.11.2004 hat die Änderung des § 4 (Geschäftsjahr) der Satzung beschlossen."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_863",
+        "_version": 74,
+        "_score": 0,
+        "_source": {
+          "id": "by_863",
+          "rb_id": 863,
+          "state": "by",
+          "reference_id": "HRB 41512",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Baveg Bauvertrieb Verwaltungsgesellschaft mbH, München (Geretsrieder Str. 12, 81379 München). Ausgeschieden Geschäftsführer: Becker, Heinrich Ludwig, Diplom-Ingenieur, Stephanskirchen. Bestellt Geschäftsführer: Achberger, Werner, Bobingen, *24.08.1940, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_864",
+        "_version": 75,
+        "_score": 0,
+        "_source": {
+          "id": "by_864",
+          "rb_id": 864,
+          "state": "by",
+          "reference_id": "HRB 41723",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Bayerische Kapitalbeteiligungsgesellschaft mbH, München (Promenadeplatz 1, 80333 München). Der Beherrschungs- und Gewinnabführungsvertrag vom 20.12.1972 mit der \"Bayerische Landesbank Girozentrale, jetzt Bayerische Landesbank\" mit dem Sitz in München (Amtsgericht München HRA 76030) ist durch Aufhebung zum 31.12.2004 beendet."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_865",
+        "_version": 76,
+        "_score": 0,
+        "_source": {
+          "id": "by_865",
+          "rb_id": 865,
+          "state": "by",
+          "reference_id": "HRB 49674",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Sixt Autoland GmbH, Garching, Landkreis München (Zugspitzstr. 1, 82049 Pullach). Die Gesellschafterversammlung vom 29.11.2004 hat die Satzung neu gefaßt. Dabei wurde geändert: Firma, Sitz, Gegenstand. Die Sixt Leasing Aktiengesellschaft mit dem Sitz in Pullach (Amtsgericht München HRB 114967) ist auf Grund des Verschmelzungsvertrages vom 29.11.2004 und des Beschlusses der gemeinsamen Haupt- und Gesellschafterversammlung vom selben Tag mit der Gesellschaft verschmolzen. Neue Firma: Sixt Leasing GmbH. Neuer Sitz: Pullach, Landkreis München. Neuer Gegenstand: Durchführung von Leasinggeschäften aller Art, gewerbliche Überlassung und Bewertung von Fahrzeugen, Flugzeugen, und Mobilien, Fuhrpark-Management, Führung, Übernahme sowie Verwaltung und Betreuung von Gesellschaften und Beteiligung, insbesondere von solchen, deren Unternehmensgegenstand sich ganz oder teilweise auf die genannten Tätigkeitsgebiete erstreckt, Vermietung von Garagenplätzen an Kurz- und Dauermieter, Betrieb von Tankstellen, Reparatur- und Servicediensten sowie Handel mit Kraftfahrzeugen, Kraftfahrzeugreifen, -ersatzteilen und -zubehör aller Art, Vermittlung von Versicherungen und Vermittlung von Finanzierungen. Bestellt Geschäftsführer: Grünberg, Jörg Martin, Unterhaching, *14.12.1961; Rotzek, Matthias, Pullach, *22.09.1964. Ausgeschieden Geschäftsführer: Pätsch, Detlev, Deisenhofen, *17.06.1951. Gesamtprokura gemeinsam mit einem Geschäftsführer: Mayer, Peter, Pullach, *23.06.1958. Prokura erloschen: Hanel, Dieter, Olching, *18.08.1959. Nicht eingetragen: Bekanntmachungsblatt ist der Bundesanzeiger. Nicht eingetragen: Den Gläubigern der an der Verschmelzung beteiligten Rechtsträger, ist wenn sie binnen sechs Monaten nach dem Tag, an dem die Eintragung der Verschmelzung in das Register des Sitzes desjenigen Rechtsträgers, dessen Gläubiger sie sind, nach § 19 Abs. 3 UmwG als bekanntgemacht gilt, ihren Anspruch nach Grund und Höhe schriftlich anmelden, Sicherheit zu leisten, soweit sie nicht Befriedigung verlangen können. Dieses Recht steht ihnen jedoch nur zu, wenn sie glaubhaft machen, daß durch die Verschmelzung die Erfüllung ihrer Forderung gefährdet wird."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_866",
+        "_version": 77,
+        "_score": 0,
+        "_source": {
+          "id": "by_866",
+          "rb_id": 866,
+          "state": "by",
+          "reference_id": "HRB 50068",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "TROBAU Hoch- und Tiefbaugesellschaft mit beschränkter Haftung, München (Prinzregentenplatz 10, 81675 München). Die Gesellschafterversammlung vom 14.12.2004 hat die Umstellung auf Euro und die Erhöhung des Stammkapitals um 54,06 EUR auf 255700 EUR und die Änderung der §§ 3 (Stammkapital), 7 (Gesellschafterversammlung) und 9 (Jahresabschluss und Gewinn) der Satzungbeschlossen."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_867",
+        "_version": 78,
+        "_score": 0,
+        "_source": {
+          "id": "by_867",
+          "rb_id": 867,
+          "state": "by",
+          "reference_id": "HRB 50317",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Travelhouse Media GmbH, München (Grillparzerstr. 12, 81675 München). Bestellt: Geschäftsführer: Leininger, Carsten, Brunnthal, *30.04.1973."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_868",
+        "_version": 79,
+        "_score": 0,
+        "_source": {
+          "id": "by_868",
+          "rb_id": 868,
+          "state": "by",
+          "reference_id": "HRB 50639",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Stoye Druck- und Werbegesellschaft mit beschränkter Haftung, München (Pippinger Str. 37, 81245 München). Bestellt: Geschäftsführer: Dr. Dorn-Zachertz, Wolfgang, Herrsching am Ammersee, *17.11.1944"
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_869",
+        "_version": 80,
+        "_score": 0,
+        "_source": {
+          "id": "by_869",
+          "rb_id": 869,
+          "state": "by",
+          "reference_id": "HRB 54058",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Carl Gerber Verlag Gesellschaft mit beschränkter Haftung, München (Muthmannstr. 4, 80939 München). Bestellt Geschäftsführer: Hinter, Rudolf, Rohrbach, *10.05.1951."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_870",
+        "_version": 81,
+        "_score": 0,
+        "_source": {
+          "id": "by_870",
+          "rb_id": 870,
+          "state": "by",
+          "reference_id": "HRB 54390",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Helmut Arnim GmbH, München (Am Moosfeld 53, 81829 München). Ausgeschieden Geschäftsführer: Arnim, Helmut, Elektromechanikermeister, München."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_871",
+        "_version": 82,
+        "_score": 0,
+        "_source": {
+          "id": "by_871",
+          "rb_id": 871,
+          "state": "by",
+          "reference_id": "HRB 60532",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "\"WR\" Bau-GmbH, München (Fürstenrieder Str. 285, 81377 München). Bestellt: Geschäftsführer: Burdak, Jürgen, Schwarzenbruck, *03.12.1954; Dr. Wild, Bertold, München, *30.09.1954. Ausgeschieden: Geschäftsführer: Dr. Hofmann, Elisabeth, leitende Angestellte, Wien; Mag. Pattermann, Werner, leitender Angestellter, Wien. Gesamtprokura gemeinsam mit einem Geschäftsführer: Graf, Rainer, München, *05.02.1967. Prokura erloschen: Dr. Haler, Bertram, Wien."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_872",
+        "_version": 83,
+        "_score": 0,
+        "_source": {
+          "id": "by_872",
+          "rb_id": 872,
+          "state": "by",
+          "reference_id": "HRB 65617",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Arbor TV-Filmproduktion GmbH, München (Türkenstrasse 89, 80799 München). Die Verschmelzung wurde am 10.12.2004 in das Register der übernehmenden Gesellschaft eingetragen (siehe Amtsgericht Hamburg HRB 26286)."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_873",
+        "_version": 84,
+        "_score": 0,
+        "_source": {
+          "id": "by_873",
+          "rb_id": 873,
+          "state": "by",
+          "reference_id": "HRB 66256",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "EXPERTISA Beratungs- und Treuhand-GmbH Steuerberatungsgesellschaft, München (Tizianstr. 16 a, 80638 München). Der Formwechsel wurde am 16.12.2004 in das Register des neuen Rechtsträgers eingetragen (siehe Amtsgericht München PR 525)."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_874",
+        "_version": 85,
+        "_score": 0,
+        "_source": {
+          "id": "by_874",
+          "rb_id": 874,
+          "state": "by",
+          "reference_id": "HRB 67290",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Kufner Textilwerke GmbH, München (Irschenhauser Str. 10 - 12, 81379 München). Bestellt Geschäftsführer: Scherbel, Ulrich, München, *13.05.1967; Seidel, Olaf, München, *27.07.1969, jeweils mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Prokura erloschen: Scherbel, Ulrich, Vaterstetten."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_875",
+        "_version": 86,
+        "_score": 0,
+        "_source": {
+          "id": "by_875",
+          "rb_id": 875,
+          "state": "by",
+          "reference_id": "HRB 68895",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Elektro Reiter GmbH, Weichs, Landkreis Dachau (Baustädter Str. 10, 85258 Weichs). Die Gesellschafterversammlung vom 26.11.2004 hat die Umstellung auf Euro und die Erhöhung des Stammkapitals um 2.435,41 EUR auf 28.000,00 EUR und die Neufassung der Satzung beschlossen. Nicht eingetragen: Bekanntmachungsblatt ist nun der Bundesanzeiger."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_876",
+        "_version": 87,
+        "_score": 0,
+        "_source": {
+          "id": "by_876",
+          "rb_id": 876,
+          "state": "by",
+          "reference_id": "HRB 71056",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Grasegger GmbH, Garmisch-Partenkirchen (Riffelstr. 10, 82467 Garmisch-Partenkirchen). Die Gesellschaft ist aufgelöst. Die Gesellschaft wird durch den/die Liquidator/en vertreten. Geändert, nun Liquidator: 31.01.1939, Johann, Garmisch-Partenkirchen, *31.01.1939, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_877",
+        "_version": 88,
+        "_score": 0,
+        "_source": {
+          "id": "by_877",
+          "rb_id": 877,
+          "state": "by",
+          "reference_id": "HRB 76575",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "ATEK Agrartechnik Kooperations und Handels GmbH, München (Rodderbergstr. 124, 53179 Bonn). Sitz verlegt nach Bonn (nun Amtsgericht Bonn HRB 13486)."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_878",
+        "_version": 89,
+        "_score": 0,
+        "_source": {
+          "id": "by_878",
+          "rb_id": 878,
+          "state": "by",
+          "reference_id": "HRB 76934",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Hartmann Verwaltungs-GmbH, München (Wilbrechtstr. 55 b, 81477 München). Bestellt: Geschäftsführer: Hartmann, Fritz, München, *29.08.1927, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Ausgeschieden: Geschäftsführer: Hartmann, Regina, München, *06.11.1973."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_879",
+        "_version": 90,
+        "_score": 0,
+        "_source": {
+          "id": "by_879",
+          "rb_id": 879,
+          "state": "by",
+          "reference_id": "HRB 85546",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "IC Beteiligungs-Treuhand GmbH, Unterschleißheim, Landkreis München (Ohmstraße 4, 85716 Unterschleißheim). Die Gesellschafterversammlung vom 08.12.2004 hat die Änderung des § 3 (Gegenstand des Unternehmens) der Satzung beschlossen. Neuer Gegenstand: Übernahme von treuhänderischen Beteiligungen an anderen Unternehmen, insbesondere als Treuhänder-Kommanditist bzw. -Gesellschafter bei Publikums-Gesellschaften im eigenen Namen für Rechnung der Anleger/ Treugeber. Erwerb von Beteiligungen im eigenen Namen und auf eigene Rechnung ist der Gesellschaft gestattet."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_880",
+        "_version": 91,
+        "_score": 0,
+        "_source": {
+          "id": "by_880",
+          "rb_id": 880,
+          "state": "by",
+          "reference_id": "HRB 86105",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Italiatour GmbH, München (Frankfurter Ring 243, 80807 München). Ausgeschieden Geschäftsführer: Dr. Salsano, Mario, Rom (Italien), *10.01.1942. Bestellt Geschäftsführer: Sabatini, Massimo, Caterham Surrey CR 3 6 EQ (Grossbritannien), *08.07.1943, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_881",
+        "_version": 92,
+        "_score": 0,
+        "_source": {
+          "id": "by_881",
+          "rb_id": 881,
+          "state": "by",
+          "reference_id": "HRB 86474",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Ursula Kaup - Leopold Sardegna GmbH Vermittlung von privaten Ferienhäusern in Sardinien, München (Rungestr. 11, 81479 München). Geschäftsführer: Rühl, Jan Alexander, München, *24.03.1976, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_882",
+        "_version": 93,
+        "_score": 0,
+        "_source": {
+          "id": "by_882",
+          "rb_id": 882,
+          "state": "by",
+          "reference_id": "HRB 89515",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Rudolf Müller & Co. GmbH, Oberpframmern, Landkreis Ebersberg (Zehetmeierstr. 13, 85630 Grasbrunn). Die Gesellschafterversammlung vom 17.12.2004 hat die Änderung des § 2 (Sitz) der Satzung beschlossen. § 6 (Stammeinlagen) wurde ersatzlos aufgehoben. Neuer Sitz: Grasbrunn, Landkreis München. Bestellt Geschäftsführer: Müller, Thomas, München, *17.11.1966; Müller-Winter, Manuela, geb. Müller, München, *02.01.1974, jeweils einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_883",
+        "_version": 94,
+        "_score": 0,
+        "_source": {
+          "id": "by_883",
+          "rb_id": 883,
+          "state": "by",
+          "reference_id": "HRB 90390",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Dietz und Partner Immobiliengesellschaft mbH, Pullach, Landkreis München (Tannenstr. 3 a, 82049 Pullach). Die Gesellschafterversammlung vom 23.12.2004 hat die Änderung des § 1 (Firma) der Satzung beschlossen. Neue Firma: ALPINA Komplettbau GmbH. Ausgeschieden Geschäftsführer: Dietz, Helmut, Immobilienkaufmann, Pullach. Bestellt Geschäftsführer: Golle, Harald, Pullach, *27.07.1955, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_884",
+        "_version": 95,
+        "_score": 0,
+        "_source": {
+          "id": "by_884",
+          "rb_id": 884,
+          "state": "by",
+          "reference_id": "HRB 95667",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "R.O. Objekt-Möbel-Vertrieb GmbH, München (Bergstr. 11, 81539 München). Vertretungsbefugnis geändert, nun Liquidator: Oblinger, Rudolf, München, *21.02.1934, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_885",
+        "_version": 96,
+        "_score": 0,
+        "_source": {
+          "id": "by_885",
+          "rb_id": 885,
+          "state": "by",
+          "reference_id": "HRB 97682",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Holz Elektronik GmbH Vertrieb von elektronischen Bauelementen, Kirchheim, Landkreis München (Benzstraße 1 b, 85551 Kirchheim). Die Gesellschaft hat am 13.12.2004 mit der \"DISWAY AG\" mit dem Sitz in Kirchheim (Amtsgericht München HRB 136198) als herrschender Gesellschaft einen Beherrschungs- und Gewinnabführungsvertrag geschlossen. Die Gesellschafterversammlung hat mit Beschluss vom 10.12.2004 zugestimmt."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_886",
+        "_version": 97,
+        "_score": 0,
+        "_source": {
+          "id": "by_886",
+          "rb_id": 886,
+          "state": "by",
+          "reference_id": "HRB 103216",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Vital Haus GmbH, München (Wittelsbacherstr. 20, 80469 München). Die Gesellschafterversammlung vom 14.12.2004 hat die Erhöhung des Stammkapitals um 50.000,00 EUR auf 120.000,00 EUR und die Änderung der §§ 3 (Stammkapital) und 9 (Stimmrecht) der Satzung beschlossen."
+        }
+      },
+      {
+        "_index": "corporate-events",
+        "_type": "_doc",
+        "_id": "by_887",
+        "_version": 98,
+        "_score": 0,
+        "_source": {
+          "id": "by_887",
+          "rb_id": 887,
+          "state": "by",
+          "reference_id": "HRB 106483",
+          "event_date": "29.12.2004",
+          "event_type": "update",
+          "status": "STATUS_ACTIVE",
+          "information": "Autohaus Holderried GmbH, Erding (Blumthaler Str. 1, 85469 Walpertskirchen). Die Gesellschafterversammlung vom 18.08.2004 mit Nachtrag vom 13.09.2004 hat die Umstellung auf Euro und die Erhöhung des Stammkapitals um 70,81 EUR auf 51.200 EUR und die Änderung der §§ 1 (Sitz) und 3 (Stammkapital) der Satzung beschlossen. Neuer Sitz: Walpertskirchen, Landkreis Erding."
+        }
+      }
+    ]
+  }
+}
