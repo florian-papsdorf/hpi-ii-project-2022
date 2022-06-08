@@ -72,7 +72,7 @@ class RbTransformer(MessageStakeholder):
             delimiter = important_end.find(",")
             name_parts.append(important_end[1:delimiter])
             important_end = important_end[delimiter + 1:]
-        # standardization firstname, lastname
+        # standardization "firstname lastname"
         name_parts.reverse()
         person_name = " ".join(name_parts)
         # normalization: remove obsolete appendices
