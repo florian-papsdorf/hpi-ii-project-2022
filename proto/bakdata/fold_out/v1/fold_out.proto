@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package bakdata.fold_out.v1;
+
+message Fold_out {
+  string continuous_id = 1;
+  string company_name = 2;
+  string person_name = 3;
+  string source_id = 4;
+}

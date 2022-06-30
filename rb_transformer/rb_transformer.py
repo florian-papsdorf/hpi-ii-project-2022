@@ -2,11 +2,13 @@ import logging
 import os
 
 from project_utilities.message_stakeholder import MessageStakeholder
-from project_utilities.constant import CORPORATE_TOPIC, CORPORATE_DETAILED_TOPIC
+from project_utilities.constant import CORPORATE_TOPIC, CORPORATE_DETAILED_TOPIC, RB_PREFIX
 from build.gen.bakdata.corporate.v1.corporate_pb2 import Corporate
 from build.gen.bakdata.corporate_detailed.v1.corporate_detailed_pb2 import Corporate_Detailed
 from project_utilities.generic_project_consumer import GenericProjectConsumer
 from project_utilities.generic_project_producer import GenericProjectProducer
+from project_utilities.conitnuous_id_generator import ContinuousIDGenerator
+from project_utilities.fold_out_producer import FoldOutProducer
 
 logging.basicConfig(
     level=os.environ.get("LOGLEVEL", "INFO"), format="%(asctime)s | %(name)s | %(levelname)s | %(message)s"
@@ -41,6 +43,8 @@ class RbTransformer(MessageStakeholder):
     def __init__(self):
         super(RbTransformer, self).__init__(topic=CORPORATE_TOPIC, group_id="rb_transformer", message_schema=Corporate)
         self.rb_consumer = self.RbConsumer(self)
+        self.fold_out_id_generator = ContinuousIDGenerator(RB_PREFIX)
+        self.fold_out_producer = FoldOutProducer()
         self.producer = self.RbDetailedProducer()
         self.rb_consumer.consume()
 
@@ -100,6 +104,8 @@ class RbTransformer(MessageStakeholder):
         detailed_corporate.reference_id = corporate.reference_id
         detailed_corporate.persons.extend(RbTransformer.extract_persons(corporate.information, list()))
         self.producer.produce_to_topic(detailed_corporate)
+        # TODO: implement produce
+        # self.fold_out_producer.produce_to_topic(message)
 
 
 if __name__ == '__main__':

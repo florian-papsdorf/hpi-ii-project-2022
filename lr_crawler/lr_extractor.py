@@ -4,6 +4,9 @@ import requests
 
 from lr_producer import LrProducer
 from build.gen.bakdata.lobbyist.v2.lobbyist_pb2 import Lobbyist
+from project_utilities.fold_out_producer import FoldOutProducer
+from project_utilities.conitnuous_id_generator import ContinuousIDGenerator
+from project_utilities.constant import LR_PREFIX
 
 log = logging.getLogger(__name__)
 
@@ -11,6 +14,8 @@ log = logging.getLogger(__name__)
 class LrExtractor:
     def __init__(self):
         self.producer = LrProducer()
+        self.fold_out_id_generator = ContinuousIDGenerator(LR_PREFIX)
+        self.fold_out_producer = FoldOutProducer()
 
     def extract(self):
         detailed_data = LrExtractor.request_detailed_data()
@@ -31,6 +36,8 @@ class LrExtractor:
                 person_client_element.last_name = person_client["last_name"]
             lobbyist.donators.extend(LrExtractor.extract_donator_names_from_lobbyist(interesting_lobbyist))
             self.producer.produce_to_topic(lobbyist)
+            # TODO: handle fold out
+            # self.fold_out_producer.produce_to_topic(message)
 
     @staticmethod
     def request_detailed_data() -> str:
