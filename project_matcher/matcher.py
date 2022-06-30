@@ -5,6 +5,8 @@ class Matcher:
     def __init__(self):
         self.es_client = Elasticsearch()
 
+    # method inspired by
+    # https://techoverflow.net/2019/05/03/elasticsearch-how-to-iterate-all-documents-in-index-using-python-up-to-10000-documents/
     def iterate_over_all_fold_outs(self):
         offset = 0
         pagesize = 5
@@ -24,4 +26,7 @@ class Matcher:
 
     def match(self):
         for hit in self.iterate_over_all_fold_outs():
-            print(hit)
+            if hit["company_name"] != "":
+                pass
+            if hit["person_name"] != "":
+                pass
