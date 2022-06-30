@@ -5,6 +5,7 @@ from project_utilities.message_stakeholder import MessageStakeholder
 from project_utilities.constant import CORPORATE_TOPIC, CORPORATE_DETAILED_TOPIC, RB_PREFIX
 from build.gen.bakdata.corporate.v1.corporate_pb2 import Corporate
 from build.gen.bakdata.corporate_detailed.v1.corporate_detailed_pb2 import Corporate_Detailed
+from build.gen.bakdata.fold_out.v1.fold_out_pb2 import Fold_out
 from project_utilities.generic_project_consumer import GenericProjectConsumer
 from project_utilities.generic_project_producer import GenericProjectProducer
 from project_utilities.conitnuous_id_generator import ContinuousIDGenerator
@@ -102,10 +103,22 @@ class RbTransformer(MessageStakeholder):
         detailed_corporate.status = corporate.status
         detailed_corporate.information = corporate.information
         detailed_corporate.reference_id = corporate.reference_id
-        detailed_corporate.persons.extend(RbTransformer.extract_persons(corporate.information, list()))
+        persons = RbTransformer.extract_persons(corporate.information, list())
+        detailed_corporate.persons.extend(persons)
         self.producer.produce_to_topic(detailed_corporate)
-        # TODO: implement produce
-        # self.fold_out_producer.produce_to_topic(message)
+        # handle company name
+        fold_out_message = Fold_out()
+        fold_out_message.continuous_id = self.fold_out_id_generator.get_next_identifier()
+        fold_out_message.company_name = detailed_corporate.company_name
+        fold_out_message.source_id = detailed_corporate.id
+        self.fold_out_producer.produce_to_topic(fold_out_message)
+        # handle persons
+        for person in persons:
+            fold_out_message = Fold_out()
+            fold_out_message.continuous_id = self.fold_out_id_generator.get_next_identifier()
+            fold_out_message.person_name = person
+            fold_out_message.source_id = detailed_corporate.id
+            self.fold_out_producer.produce_to_topic(fold_out_message)
 
 
 if __name__ == '__main__':
