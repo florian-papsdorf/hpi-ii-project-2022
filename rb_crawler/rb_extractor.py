@@ -16,8 +16,10 @@ class RbExtractor:
         self.state = state
         self.producer = RbProducer()
 
-    def extract(self):
-        while True:
+    def extract(self, should_loop: bool):
+        do = True
+        while do | should_loop:
+            do = False
             try:
                 log.info(f"Sending Request for: {self.rb_id} and state: {self.state}")
                 text = self.send_request()
@@ -41,7 +43,7 @@ class RbExtractor:
                 log.error(f"Cause: {ex}")
                 self.rb_id = self.rb_id + 1
                 continue
-        exit(0)
+        #exit(0)
 
     def send_request(self) -> str:
         url = f"https://www.handelsregisterbekanntmachungen.de/skripte/hrb.php?rb_id={self.rb_id}&land_abk={self.state}"

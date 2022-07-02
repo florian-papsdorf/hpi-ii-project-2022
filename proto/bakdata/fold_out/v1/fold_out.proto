@@ -5,6 +5,13 @@ package bakdata.fold_out.v1;
 message Fold_out {
   string continuous_id = 1;
   string company_name = 2;
-  string person_name = 3;
+  string source_prefix = 3;
   string source_id = 4;
+  RELATION relation = 5;
+}
+
+enum RELATION {
+  LOBBYIST = 0;
+  CLIENT = 1;
+  HANDELSREGISTER = 2;
 }

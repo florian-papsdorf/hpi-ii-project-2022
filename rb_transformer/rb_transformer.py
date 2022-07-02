@@ -1,15 +1,14 @@
 import logging
 import os
 
-from project_utilities.message_stakeholder import MessageStakeholder
-from project_utilities.constant import CORPORATE_TOPIC, CORPORATE_DETAILED_TOPIC, RB_PREFIX
 from build.gen.bakdata.corporate.v1.corporate_pb2 import Corporate
 from build.gen.bakdata.corporate_detailed.v1.corporate_detailed_pb2 import Corporate_Detailed
-from build.gen.bakdata.fold_out.v1.fold_out_pb2 import Fold_out
+from build.gen.bakdata.fold_out.v1.fold_out_pb2 import RELATION
+from project_utilities.constant import CORPORATE_TOPIC, CORPORATE_DETAILED_TOPIC, RB_PREFIX
+from project_utilities.fold_out_generator import FoldOutBuilder
 from project_utilities.generic_project_consumer import GenericProjectConsumer
 from project_utilities.generic_project_producer import GenericProjectProducer
-from project_utilities.conitnuous_id_generator import ContinuousIDGenerator
-from project_utilities.fold_out_producer import FoldOutProducer
+from project_utilities.message_stakeholder import MessageStakeholder
 
 logging.basicConfig(
     level=os.environ.get("LOGLEVEL", "INFO"), format="%(asctime)s | %(name)s | %(levelname)s | %(message)s"
@@ -44,9 +43,8 @@ class RbTransformer(MessageStakeholder):
     def __init__(self):
         super(RbTransformer, self).__init__(topic=CORPORATE_TOPIC, group_id="rb_transformer", message_schema=Corporate)
         self.rb_consumer = self.RbConsumer(self)
-        self.fold_out_id_generator = ContinuousIDGenerator(RB_PREFIX)
-        self.fold_out_producer = FoldOutProducer()
         self.producer = self.RbDetailedProducer()
+        self.fold_out_builder = FoldOutBuilder(RB_PREFIX)
         self.rb_consumer.consume()
 
     @staticmethod
@@ -106,19 +104,10 @@ class RbTransformer(MessageStakeholder):
         persons = RbTransformer.extract_persons(corporate.information, list())
         detailed_corporate.persons.extend(persons)
         self.producer.produce_to_topic(detailed_corporate)
-        # handle company name
-        fold_out_message = Fold_out()
-        fold_out_message.continuous_id = self.fold_out_id_generator.get_next_identifier()
-        fold_out_message.company_name = detailed_corporate.company_name
-        fold_out_message.source_id = detailed_corporate.id
-        self.fold_out_producer.produce_to_topic(fold_out_message)
-        # handle persons
-        for person in persons:
-            fold_out_message = Fold_out()
-            fold_out_message.continuous_id = self.fold_out_id_generator.get_next_identifier()
-            fold_out_message.person_name = person
-            fold_out_message.source_id = detailed_corporate.id
-            self.fold_out_producer.produce_to_topic(fold_out_message)
+        self.fold_out_builder.build_fold_out(
+            detailed_corporate.company_name,
+            detailed_corporate.id,
+            RELATION.HANDELSREGISTER)
 
 
 if __name__ == '__main__':
