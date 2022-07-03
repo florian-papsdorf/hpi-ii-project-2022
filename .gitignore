@@ -2,3 +2,5 @@ venv/
 build/gen/bakdata/*/*/*_pb2.py
 .idea
 __pycache__/
+
+data_importer/corporates.dump
