@@ -2,10 +2,13 @@ from elasticsearch import Elasticsearch
 from py_stringmatching.similarity_measure.levenshtein import Levenshtein
 from py_stringmatching.similarity_measure.jaro_winkler import JaroWinkler
 
+from project_utilities.conitnuous_id_generator import ContinuousIDGenerator
+
 
 class Matcher:
     def __init__(self):
         self.es_client = Elasticsearch()
+        self.c_id_generator = ContinuousIDGenerator(prefix="CMatched")
         self.companies = dict()
         self.bloom_filter = list()
 
@@ -73,6 +76,19 @@ class Matcher:
     def is_interesting_fold_out(fold_out):
         return fold_out["company_name"] != "" and fold_out["continuous_id"].startswith("lr")
 
+    def persist_localized_company(self, company_name, c_id, s_id, s_prefix, relation, cities):
+        for city in cities:
+            new_c_id = self.c_id_generator.get_next_identifier()
+            self.es_client.index(index="company_localized", body={
+                "c_id": new_c_id,
+                "oc_id": c_id,
+                "company_name": company_name,
+                "source_id": s_id,
+                "source_prefix": s_prefix,
+                "relation": relation,
+                "city": city
+            }, id=new_c_id)
+
     def match(self):
         interesting_fold_outs = 0
         fold_outs_lost_due_missing_city = 0
@@ -84,6 +100,12 @@ class Matcher:
                 if len(cities) == 0:
                     fold_outs_lost_due_missing_city += 1
                     continue
-
-                print(f"{company_name}: {' '.join(cities)}")
+                self.persist_localized_company(
+                    company_name=company_name,
+                    c_id=fold_out["continuous_id"],
+                    s_id=fold_out["source_id"],
+                    s_prefix=fold_out["source_prefix"],
+                    cities=cities,
+                    relation=fold_out["relation"]
+                )
         print(f"All: {interesting_fold_outs}, Lost: {fold_outs_lost_due_missing_city}")
